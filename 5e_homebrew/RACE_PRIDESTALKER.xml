@@ -4,7 +4,7 @@
 			<description>
 				<p>Pridestalker Tabaxi are more ambush oriented and feral than the ordinary Tabaxi, and therefore more adept at hunting, whether it be beasts, monsters or people. There are as many different Pridestalkers as ways to hunt prey. These Tabaxi are prideful, collect trophies made from their preys' remnants, and wouldn't give up a chance to go hunting.</p>
 				<p class="indent"><b>Ability Score Increase.</b> Your Dexterity score increases by 2, and one Ability Score of your choice increases by 1.</p>
-				<p class="indent"><b>Speed.</b> Your base walking speed is 40 feet.</p>
+				<p class="indent"><b>Speed.</b> Your base walking speed is 35 feet.</p>
 				<p class="indent"><b>Darkvision.</b> You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of red.</p>
 				<p class="indent"><b>Pridestalker Agility.</b> Your strength and agility allow you to consequently leap at your targets. On your turn, you can perform a running long jump immidiately after moving 5 feet, instead of 10, at an increased length. Your jumps are 5 feet longer and higher. You can use your Dexterity instead of Strength to determine your jump length or height. You also gain climbing speed equal to half your walking speed.</p>
 				<p class="indent"><b>Feline Ambusher.</b> You have advantage on Dexterity (Stealth) checks when in environments similar to tall grass, dense bushes or tree foliage, these environments don't have to be naturally occurring. Whenever you are unseen, you can perform a running long jump towards a creature in range and immidiately attack it with a melee weapon, you don't have to move before the jump. Successful attacks made using this trait are critical hits.</p>
@@ -20,16 +20,16 @@
 				<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_KNACK_FOR_HUNTING" />
 			</rules>
 		</element>
-		<element name="Pridestalker Aility" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_PRIDESTALKER_AGILITY">
-			<description>Your strength and agility allow you to consequently leap at your targets. On your turn, you can perform a running long jump immidiately after moving 5 feet, instead of 10, at an increased length. Your jumps are 5 feet longer and higher. You can use your Dexterity instead of Strength to determine your jump length or height. You also gain climbing speed equal to half your walking speed.</description>
+		<element name="Pridestalker Agility" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_PRIDESTALKER_AGILITY">
+			<description>Your strength and agility allow you to perform long leap at your targets. On your turn, when you perform a running long jump, you can do it after moving only 5 feet, instead of 10. In addition, you can jump 5 feet farther, and leaping this way doesn't cost you movement. You can use your Dexterity score instead of Strength to determine your jump length or height. You also gain 20 feet of climbing speed.</description>
 			<sheet display="false">
-				<description>You can use Dexterity to calculate jump height/length, and can perform jumps and leaps easier. You can also climb half your movement.</description>
+				<description>You can use Dexterity to calculate jump height/length, and can perform jumps and leaps better. You can also climb 20 feet.</description>
 			</sheet>
 		</element>
 		<element name="Feline Ambusher" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_FELINE_AMBUSHER">
-			<description>You have advantage on Dexterity (Stealth) checks when in environments similar to tall grass, dense bushes or tree foliage, these environments don't have to be naturally occurring. Whenever you are unseen, you can perform a running long jump towards a creature in range and immidiately attack it with a melee weapon, you don't have to move before the jump. Successful attacks made using this trait are critical hits.</description>
+			<description>You have advantage on Dexterity (Stealth) checks when in environments similar to tall grass, dense bushes or tree foliage, these environments don't have to be natural. Whenever you are hidden, you can perform a running long jump towards a creature in range and immidiately attack it with a melee weapon once, without having to take the attack action. If you hit, the attack is automatically a critical hit.</description>
 			<sheet display="false">
-				<description>You have advantage on Stealth rolls when hidden in certain environments. Also, you can pounce on your enemies from hiding, critically hitting with an attack.</description>
+				<description>You have advantage on Stealth rolls when hidden in grassy, bushy environments. Also, you can pounce on your enemies from hiding, critically hitting with an attack.</description>
 			</sheet>
 		</element>
 		<element name="Knack for Hunting" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_KNACK_FOR_HUNTING">
@@ -38,7 +38,6 @@
 				<description>You have proficiency in the Stealth and your choice of Perception or Survival skills.</description>
 			</sheet>
 			<rules>
-				<!--><grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL"/><!-->
 				<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
 				<select type="Proficiency" name="Proficiency (Pridestalker)" supports="ID_PROFICIENCY_SKILL_SURVIVAL|ID_PROFICIENCY_SKILL_PERCEPTION" />
 			</rules>
