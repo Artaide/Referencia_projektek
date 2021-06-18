@@ -131,5 +131,187 @@
 			<set name="name-format">Spellsword</set>
 		</setters>
 	</element>
+	
+	<element name="Onyx Blaster Cannon" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_BLASTER_CANNON">
+		<supports> ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED,ID_INTERNAL_DAMAGETYPE_FORCE,ID_INTERNAL_WEAPON_PROPERTY_LONGARMS,ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,ID_INTERNAL_WEAPON_PROPERTY_HEAVY,ID_RDDT_AA_WEAPON_GROUP_FIREARMS </supports>
+		<description>
+			<p>This matte black two-handed man-portable cannon holds a fist-sized onyx stone. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">This weapon deals 1d10 force damage on a hit. When attacking with this weapon, you can choose to take 1d4 necrotic damage to empower the shot with extra energy. If you do so, on a hit you deal an extra 1d6 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">blaster, cannon, onyx</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="30">30 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="range">60/150</set>
+			<set name="enhancement">3</set>
+			<set name="name-format">Onyx Blaster Cannon</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Saber" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_SABER">
+		<description>
+			<p>This matte black hilted longsword holds an onyx stone in its crossguard. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">As a bonus action on your turn, you can choose to decrease your maximum number of Hit Points by 10 for 1 hour. While your Hit Points a decreased this way, every time an enemy dies within 30 feet of you that you have attacked with this weapon, the next attack you make with it deals an extra 1d4 necrotic damage on a hit.</p>
+		</description>
+		<setters>
+			<set name="keywords">onyx, saber</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">longsword</set>
+			<set name="name-format">Onyx Saber</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Dagger" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_DAGGER">
+		<description>
+			<p>This matte black hilted dagger a small onyx stone at the end of its handle. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">Critical hits made with this weapon deal an extra 1d4 necrotic damage. When attacking with this weapon, you can choose to take 1d6 necrotic damage to empower the attack, increasing the critical hit range by 1 when thrown, or by 2 when used in melee combat.</p>
+		</description>
+		<setters>
+			<set name="keywords">onyx, dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">dagger</set>
+			<set name="name-format">Onyx Dagger</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Glaive" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_GLAIVE">
+		<description>
+			<p>This matte black shafted polearm holds an onyx stone in its shaft. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you hit with an attack made with this weapon, you can choose to take 1d6 necrotic damage to empower the attack, dealing an extra 1d8 necrotic damage. If the attack kills your target, you get a free attack until the end of your turn, and 15 feet of extra movement towards another creature you are in combat with.</p>
+		</description>
+		<setters>
+			<set name="keywords">glaive, onyx</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="glaive">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">glaive</set>
+			<set name="name-format">Onyx Glaive</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Repeater" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_REPEATER">
+		<description>
+			<p>This matte black, metal base crossbow holds an onyx stone. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you miss with an attack made with this weapon, as a reaction you can choose to take 1d6 necrotic damage and magically reverse the bolt back into the crossbow, allowing you to immediately  repeat the attack. You can also choose to take 1d8 necrotic damage to double your proficiency on the new attack, and deal extra necrotic damage equal to the damage you took.</p>
+		</description>
+		<setters>
+			<set name="keywords">crossbow, hand, onyx</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="glaive">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_WOTC_PHB_WEAPON_CROSSBOW_HAND</set>
+			<set name="name-format">Onyx Repeater</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Basher" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_BASHER">
+		<description>
+			<p>This matte black shafted maul hold a fist-sized onyx stone in its head. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you hit with an attack made with this weapon, you can choose to take 1d6 necrotic damage to empower the attack, dealing an extra 1d8 necrotic damage, and forcing your target to succeed a DC 16 Constitution saving throw, or become stunned until the end of its next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">basher, maul, onyx</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="maul">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">maul</set>
+			<set name="name-format">Onyx Basher</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Impaler" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_IMPALER">
+		<description>
+			<p>This matte black shafted spear holds an onyx stone in its shaft. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you hit with an attack made with this weapon, you can choose to take 1d6 necrotic damage to empower the attack, dealing an extra 1d6 necrotic damage, and possibly impaling and lifting the target 5 feet in the air. Make a contested Strength (Athletics) check against the creature's Strength (Athletics) or Dexterity (Acrobatics) check (creature's choice). If you succeed, the creature is lifted in the air. It has disadvantage on attacks, but can try to remove itself from the spear as an action on its turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">impaler, onyx, spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">spear</set>
+			<set name="name-format">Onyx Impaler</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Trident" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_TRIDENT">
+		<description>
+			<p>This matte black shafted trident holds an onyx stone in its shaft. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you take the attack action on your turn, you can choose to take 1d4 necrotic damage and forgo an attack to spin the trident in front of yourself and assume a defensive position. All attacks that you can see coming have disadvantage against you, and when an attack misses you, you can use your reaction to perform a counter attack. Make a melee attack with this weapon, on a hit, you deal an extra 1d6 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="keywords">impaler, onyx, spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">spear</set>
+			<set name="name-format">Onyx Impaler</set>
+		</setters>
+	</element>
+	
+	<element name="Onyx Thrasher" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ONYX_TRASHER">
+		<description>
+			<p>This matte black shafted trident holds an onyx stone in its shaft. It seems to be from a civilization long lost.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this weapon.</p>
+			<p class="indent">This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you critically hit a creature with this weapon, you can choose to take 1d6 necrotic damage and empower the attack even further, causing the flail to wildly thrash around, dealing and extra 1d6 bludgeoning and the same amount of necrotic damage to the target.</p>
+		</description>
+		<setters>
+			<set name="keywords">flail, onyx, thrasher</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">flail</set>
+			<set name="name-format">Onyx Thrasher</set>
+		</setters>
+	</element>
 
 </elements>
