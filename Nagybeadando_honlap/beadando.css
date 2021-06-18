@@ -1,0 +1,972 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li
+{
+    text-align: left;
+}
+
+.ugras
+{
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.header
+{
+    background-image: url("szek.png");
+    background-position: center;
+    background-size: 2000rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar
+{
+    width: auto;
+    height: auto;
+    color: white;
+    padding-bottom: 2rem;
+    display: flex;
+    overflow-wrap: normal;
+}
+
+.navbar button
+{
+    position: relative;
+    float: left;
+    background-color: #6d0d0d;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.navbar button:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar ul
+{   
+    margin-left: 5rem;
+    margin-right: 2rem;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:max-content;
+    overflow-wrap: normal;
+}
+
+.navbar li
+{
+    background-color: antiquewhite;
+    padding: 0.2rem;
+    border: 0.2rem solid rgb(210, 127, 234);
+    border-radius: 0.3rem;
+    padding-top: 1rem;
+}
+
+.navbar a
+{
+    color: #333;
+    line-height: 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    padding-right: 2rem;
+}
+
+.navbar a:hover
+{
+    background-color: #333;
+    color: antiquewhite;
+}
+
+.navbar a.active
+{
+    background-color: white;
+    color: black;
+}
+
+.title
+{
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+h1
+{
+    padding-bottom: 2rem;
+    bottom: 3rem;
+    position: relative;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0d0838;
+    font-size: 3rem;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title p
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    font-size: 2rem;
+}
+
+.title ul
+{
+    position: relative;
+    list-style: none;
+    float: right;
+    flex-direction: column;
+    width: 10rem;
+    margin-right: 2rem;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.title li
+{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    width: 10rem;
+    float: right;
+}
+
+.title a
+{
+    color: rgb(81, 33, 94);
+    padding-bottom: 0.5rem;
+    margin-right: 10rem;
+    line-height: 2.1rem;
+    text-align: right;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.title a:hover
+{
+    color: antiquewhite;
+    background-color: #333;
+}
+
+.title a:active
+{
+    background-color: rgb(44, 18, 104);
+    color: white;
+}
+
+.title .current
+{
+    background-color: #333;
+    padding: 0.2rem;
+}
+.title a:visited
+{
+    color: rgb(201, 82, 27);
+}
+
+#logo
+{
+    position: relative;
+    margin: 2rem;
+    left: 3rem;
+    overflow-wrap: normal;
+    margin-bottom: 5rem;
+    width: 18rem;
+    height: auto;
+    background-color: transparent;
+}
+
+
+
+.main
+{
+    background-color: antiquewhite;
+    text-decoration: none;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+
+h2
+{
+    background-color: rgb(168, 99, 187);
+    width: 100%;
+    height: 10rem;
+    line-height: 10rem;
+    padding-top: 3rem;
+    text-align: center;
+    vertical-align: bottom;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    overflow: visible;
+}
+
+#hide-h2
+{
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+.text
+{
+    width: 100%;
+    text-align: left;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+#i1
+{
+    border: 0.5rem solid rgb(168, 99, 187);
+    padding-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+#i2
+{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    vertical-align: middle;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    padding: 0.2rem;
+    overflow: auto;
+    background-color: rgb(168, 99, 187);
+    border: 0.5rem solid rgb(168, 99, 187);
+}
+
+.slide-bal
+{
+    list-style: none;
+    display: flex;
+    float: left;
+    width: 80%;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+.slide-bal img
+{
+    width: auto;
+    height: 46rem;
+}
+
+.slide-jobb
+{
+    text-align: right;
+    list-style: none;
+    flex-direction: column;
+    width: auto;
+    overflow: auto;
+}
+
+.jimg
+{
+    object-fit: cover;
+    width: 15rem;
+    height: 15rem;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: #0d0838;
+    height: 20rem;
+    display: flex;
+}
+
+#i3
+{
+    border: 0.5rem solid rgb(168, 99, 187);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-justify: auto;
+    width: 100%;
+}
+
+.i4
+{
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.container2
+{
+    list-style: none;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    padding: 0.2rem;
+    overflow-wrap: normal;
+}
+
+.container3
+{
+    margin-bottom: auto;
+    list-style: none;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+    width: 40%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropbtn
+{
+    background-color: rgb(168, 99, 187);
+    color: black;
+    padding: 1.6rem;
+    font-size: 1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0,0,0,0.2);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+.dropdown-content a
+{
+    color: black;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover
+{
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+  
+.dropdown:hover .dropbtn
+{
+    background-color: rgb(168, 99, 187);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.tospp
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 5%;
+    vertical-align: top;
+    color: white;
+    font-size: 0.8rem;
+    width: auto;
+    font-family: sans-serif;
+    word-wrap: normal;
+}
+
+#tosppid:active .hidden
+{
+    font-size: 0.5rem;
+    font-family:sans-serif;
+    text-justify: auto;
+    text-justify: inter-word;
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+}
+
+#newsletter
+{
+    float: left;
+    color: black;
+    font-size: 0.8rem;
+    background-color: white;
+    width: auto;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    margin-left: 10%;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#tudasmail
+{
+    word-wrap: break-word;
+}
+
+.teljes
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.teljes ul
+{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+.teljes li
+{
+    list-style: none;
+}
+
+.teljes h2
+{
+    margin-top: 10rem;
+    background-color: rgb(168, 99, 187);
+    width: 30rem;
+    height: 10rem;
+    line-height: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    vertical-align: bottom;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    overflow: visible;
+}
+
+
+#ah2
+{
+    margin-top: 0rem;
+}
+
+.sor
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.h2_p
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_p h2
+{
+    margin-bottom: 0rem;
+}
+
+.h2_p p
+{
+    border: 0.5rem solid rgb(168, 99, 187);
+    border-top: 0rem;
+    width: 25rem;
+    height: auto;
+    text-align: left;
+    text-justify: inter-word;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sor video
+{
+    width: 20rem;
+    height: auto;
+    position:relative;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: auto;
+    border: 0.2rem solid rgb(168, 99, 187);
+}
+
+.hide-vid
+{
+    left: 9999rem;
+    position: absolute;
+}
+
+#rolunkt
+{
+    width: 40rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+#rolunkt p
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210, 127, 234);
+    margin-top: 1rem;
+}
+
+#rolunkt summary
+{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    padding-bottom: 0.2rem;
+    display: none;
+}
+
+#rolunkt caption:active summary
+{
+    display: block;
+}
+
+table, tr, th, td
+{
+    border: 0.2rem solid #0d0838;
+    border-collapse: collapse;
+    line-height: 2rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rolunkt th
+{
+    background-color: rgb(210, 127, 234);
+}
+
+#r1 th
+{
+    font-weight: bold;
+}
+
+#r1 td
+{
+    background-color: rgb(210, 127, 234);
+    text-align: center;
+}
+
+.c1
+{
+    width: 5rem;
+}
+
+.img_txt
+{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+.oldalra
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left
+{
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 15rem;
+    left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.right
+{
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    height: 15rem;
+    right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.img_txt img
+{
+    width: 18rem;
+    height: 14rem;
+    margin: 1rem 0rem 1rem 2rem;
+    border: 0.5rem solid rgb(210, 127, 234);
+    border-right: 0rem;
+}
+
+.strg_txt
+{
+    width: 10rem;
+    height: 14rem;
+    margin: 1rem 3rem 0rem 0rem;
+    border: 0.5rem solid rgb(210, 127, 234);
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teljeskep
+{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(51, 51, 51, 0.8);
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+}
+
+.teljeskep img
+{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: 14rem;
+    margin: auto;
+}
+
+.teljeskep:target
+{
+    visibility: visible;
+    outline: none;
+    cursor: default;
+}
+
+#mutat
+{
+    position: relative;
+    margin: 0 auto 3rem auto;
+}
+
+#tbtn
+{
+    width: 20rem;
+    padding: 0.3rem;
+    border: 0.2rem solid rgb(210, 127, 234);
+    font-size: 1.2rem;
+}
+
+#tbtn:active
+{
+    background-color: #333;
+    color:rgb(230, 97, 36);
+}
+
+#tovabbi
+{
+    display: none;
+}
+
+#mutat:target #tovabbi
+{
+    display: block;
+    width: 20rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#urlap
+{
+    background-color: antiquewhite;
+    width: 30rem;
+    margin: 2rem auto;
+    border: 0.1rem solid black;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formcap
+{
+    padding: 0.3rem;
+}
+
+#q1
+{
+    padding: 0.3rem;
+    display: flex;
+    vertical-align: middle;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+    height: 3rem;
+    width: 30rem;
+}
+
+#q2
+{
+    vertical-align: middle;
+    border-bottom: 0.1rem solid black;
+    height: 10rem;
+    display: flex;
+}
+
+#keresett
+{
+    float: right;
+    margin: auto;
+    transform: scale(1.5);
+}
+
+#q2-lbl
+{
+    width: 10rem;
+    vertical-align: middle;
+    margin: auto 6rem auto 2rem;
+}
+
+#options
+{
+    float: right;
+    margin: auto 1rem auto 2rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#q3
+{
+    line-height: 2rem;
+    margin-left: 0.5rem;
+}
+
+#comment
+{
+    width: 100%;
+    padding: 1rem;
+}
+#scomment
+{
+    width: 100%;
+    padding: 1rem;
+}
+
+#default
+{
+    margin: 1rem auto 1rem 1rem;
+    padding: 0.2rem;
+}
+
+#submit
+{
+    padding: 0.2rem;
+    background-color: #333;
+    color: white;
+    float: right;
+    margin: 1rem 1rem 1rem auto;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .navbar button
+    {
+        width: 5rem;
+        height: 3rem;
+        font-size: 0.5rem;
+        line-height: normal;
+        margin: 0.2rem;
+    }
+    .navbar a
+    {
+        width: 5rem;
+        font-size: 1rem;
+        padding: 0.2rem;
+        margin: auto;
+    }
+    #logo
+    {
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0rem;
+        margin-bottom: 1rem;
+    }
+    h2
+    {
+        width: 100%;
+    }
+    .container
+    {
+        height: 25rem;
+    }
+    .teljes h2
+    {
+        width: 25rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .h2_p p
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem;
+        width: 100%;
+    }
+    .h2_p h2
+    {
+        font-size: 1.2rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        word-wrap: normal;
+    }
+    .sor video
+    {
+        width: 100%;
+        margin: 0rem auto;
+    }
+    .img_txt
+    {
+        width: 100%;
+    }
+    .right img
+    {
+        margin: 1rem 0 1rem 1rem;
+    }
+    .left img
+    {
+        margin: 1rem 0 1rem 1rem;
+    }
+    .oldalra
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0rem;
+    }
+    .left
+    {
+        flex-wrap: nowrap;
+        position: relative;
+        left: 0rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+        width: auto;
+        height: auto;
+    }
+    .strg_txt
+    {
+        width: 25%;
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+    .right
+    {
+        position: relative;
+        flex-wrap: nowrap;
+        margin-bottom: 3rem;
+        right: 0rem;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+        height: auto;
+    }
+    #urlap
+    {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    #q1, #q2
+    {
+        width: 100%;
+    }
+    #keresett
+    {
+        float: right;
+        position: relative;
+        transform: scale(1.5);
+    }
+    #q2-lbl
+    {
+        margin-right: 1rem;
+    }
+    #options
+    {
+        position: relative;
+        margin: auto;
+        flex-wrap: wrap;
+        overflow-wrap: normal;
+    }
+    #rolunkt
+    {
+        width: 100%;
+        margin: 2rem 0;
+        line-height: 2rem;
+        overflow: scroll;
+    }
+    .tospp
+    {
+        width: 5rem;
+        font-size: 0.5rem;
+        margin: 0;
+        word-wrap: normal;
+    }
+    #newsletter
+    {
+        width: 50%;
+        font-size: 0.5rem;
+        margin: 0;
+    }
+    
+}

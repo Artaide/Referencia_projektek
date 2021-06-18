@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raktár - Tudásállapot</title>
+    <link rel="stylesheet" href="beadando.css">
+    <link rel="print stylesheet" media="print" href="print.css" type="text/css" title="Print">
+</head>
+<body>
+    <div class="ugras">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </div>
+    <header class="header">
+        <nav class="navbar">
+            <button>Magyar / English</button>
+            <ul>
+                <li><a href="#">Súgó</a></li>
+                <li><a href="#">Nézet</a></li>
+                <li><a href="#">Szerkesztés</a></li>
+                <li><a href="#elerhetosegek">Elérhetőségek</a></li>       
+            </ul>
+        </nav>
+        <nav class="title">
+            <div id="oldalak">
+                <ul>
+                    <li><p>Oldalak</p></li>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="rolunk.html">Rólunk / 2. oldal</a><li></li>
+                    <li><a class="current" href="raktar.html">Raktár / 3. oldal</a></li>
+                    <li><a href="visszajel.html">Visszajelzés / 4. oldal</a></li>                  
+                </ul>
+            </div>
+            <div id="logo"><img src="logo.png" alt="Tudásállapot Szalagos Logó"></div>
+            <div><h1>Raktár</h1></div>
+        </nav>
+    </header>
+    <!--HEADER VÉGE-->
+
+    <div class="img_txt" id="tartalom">
+        <div class="oldalra">
+            <div class="left">
+                <a href="#f4-id">
+                    <img src="f4ntorpikush3rmas.png" alt="Charizard, Pikachu és Bulbasaur kigyúrt akciófigurák űrlények fejeivel, mindhárman viselnek valamilyen sapkát vagy kiegészítőt.">
+                </a>
+                <div class="strg_txt">Új esemény! Február 31-én F4ntöpikus H3mas fellép a Broadway-en, este 8 órakor!</div>
+            </div>
+            <aside class="right">
+                <a href="#tok-id"><img src="hevoleen.png" alt="Egy kisgyerek és egy halloween-i sütőtök arcot cserélt, a tökön lévő kisgyerek füstöt fúj ki, és ezt mondja: íííí tescós szatyrom ez jó zigi."></a>
+                <div class="strg_txt">Hazudik. Dohányozni nem egészséges, ne hallgassatok rá.</div>
+            </aside>
+        </div>
+        <div class="oldalra">
+            <div class="left">
+                <a href="#aztek-id"><img src="aztek.jpg" alt="Thanos arca egy bálna testén, a kép felirata: csúszik az azték emancipáció tescós szatyrom."></a>
+                <div class="strg_txt">Thanos bálna.</div>
+            </div>
+            <aside class="right">
+                <a href="#teso-id"><img src="shittesh.jpg" alt="4 képkocka, mindegyiken egy irodai dolgozó eltorzított arca látható, minden képkocka egyre jobban közelít rá, az férfi pisztoly-ujjakat mutat, míg ezt mondja: shittesóm vagy, értet? kecifei."></a>
+                <div class="strg_txt">Nem Thanos bálna.</div>
+            </aside>
+        </div>
+        <div id="mutat">
+            <!-- <form action="#mutat" method="get" id="megnyit"></form> -->
+            <!-- <a href="#mutat" id="megnyit"> --><button type="button" id="tbtn">További képek (WIP)</button><!-- </a> -->
+            <div id="tovabbi">
+                <p>Mivel nincs még elég megjelenítésre alkalmas kép a raktárban, így egyenlőre ez a gomb értelmetlen, de itt van.</p>
+                <a href="#eltuntet" id="bezar">Bezár</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#_" class="teljeskep" id="f4-id">
+        <img src="f4ntorpikush3rmas.png" alt="Teljes képernyős változata az első képnek.">
+    </a>
+    <a href="#_" class="teljeskep" id="tok-id">
+        <img src="hevoleen.png" alt="Teljes képernyős változata az második képnek.">
+    </a>
+    <a href="#_" class="teljeskep" id="aztek-id">
+        <img src="aztek.jpg" alt="Teljes képernyős változata az harmadik képnek.">
+    </a>
+    <a href="#_" class="teljeskep" id="teso-id">
+        <img src="shittesh.jpg" alt="Teljes képernyős változata az negyedik képnek.">
+    </a>
+
+    <!--FOOTER ELEJE-->
+    <footer class="footer">
+        <ul class="dropdown" id="elerhetosegek">
+            <li><button class="dropbtn"><b>&#35;</b>Közösségi Média</button></li>
+            <li><div class="dropdown-content">
+                <a href="https://www.instagram.com/tudasallapot/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/tudasallapot/" target="_blank">Facebook</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="container3">
+            <li class="tospp" id="tosppid">Terms of Service | Privacy Policy</li>
+            <li><label for="newsletter" class="tospp">Jelentkezz fel e-mail címeddel, hogy kapj értesítést, ha új tartalmat töltünk fel az oldalra!</label></li>
+            <li><input type="email" placeholder="example@email.com" id="newsletter"></li>
+        </ul>
+        <ul class="container3">
+            <li class="hidden"><p>Ez a komponens komolyabb papírmunkába kerülne, így amíg nem lesz hivatalos és teljesen publikus a weboldal, addig ez nem visz sehova.</p></li>
+            <li class="tospp">A weboldalon található képek és más tartalom teljes mértékben paródia vagy szatíra jellegűek, senki se vegye komolyan!</li>
+            <li class="tospp">tudasallapot@gmail.com</li>
+        </ul>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visszajelzés - Tudásállapot</title>
+    <link rel="stylesheet" href="beadando.css">
+    <link rel="print stylesheet" media="print" href="print.css" type="text/css" title="Print">
+</head>
+<body>
+    <div class="ugras">
+        <a href="#urlap">Ugrás a tartalomra</a>
+    </div>
+    <header class="header">
+        <nav class="navbar">
+            <button>Magyar / English</button>
+            <ul>
+                <li><a href="#">Súgó</a></li>
+                <li><a href="#">Nézet</a></li>
+                <li><a href="#">Szerkesztés</a></li>
+                <li><a href="#elerhetosegek">Elérhetőségek</a></li>       
+            </ul>
+        </nav>
+        <nav class="title">
+            <div id="oldalak">
+                <ul>
+                    <li><p>Oldalak</p></li>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="rolunk.html">Rólunk / 2. oldal</a><li></li>
+                    <li><a href="raktar.html">Raktár / 3. oldal</a></li>
+                    <li><a class="current" href="visszajel.html">Visszajelzés / 4. oldal</a></li>                  
+                </ul>
+            </div>
+            <div id="logo"><img src="logo.png" alt="Tudásállapot Szalagos Logó"></div>
+            <div><h1>Visszajelzés</h1></div>
+        </nav>
+    </header>
+    <!--HEADER VÉGE-->
+
+    <div id="urlap">
+        <form action="mailto:akarki@akarhol.hu" method="post">
+            <p id="formcap">Mit gondolsz az oldalról? Töltsd ki az űrlapot!</p>
+            <div id="q1">
+                <label for="keresett">Megtaláltad-e, amit kerestél az oldalon? (Pipa ha igen)</label>
+                <input type="checkbox" id="keresett" name="keresett">
+            </div>
+            <div id="q2">
+                <div id="q2-lbl"><label>Ajánlanád az oldalt olyan ismerőseidnek, akik érdekeltek ilyesmi tartalomban?</label></div>
+                <div id="options">
+                    <div>
+                        <input type="radio" id="nem" name="nem" value="nem">
+                        <label for="nem">Nem</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="igen" name="igen" value="igen">
+                        <label for="igen">Igen</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="kesz" name="kesz" value="kesz">
+                        <label for="kesz">Már megtettem</label><br>
+                    </div>
+                </div>
+            </div>
+            <div id="q3">
+                <label for="comment" id="megj">Megjegyzés:</label><br>
+                <textarea name="comment" id="comment" cols="50" rows="10" maxlength="500"></textarea>
+                <label for="scomment" id="rmegj">Rövid megjegyzés:</label><br>
+                <input type="text" name="comment" id="scomment" maxlength="20">
+            </div>
+            <div id="form-btns">
+                <input type="reset" id="default" value="Alaphelyzet">
+                <input type="submit" id="submit" value="Elküldés">
+            </div>
+        </form>
+    </div>
+
+    <!--FOOTER ELEJE-->
+    <footer class="footer">
+        <ul class="dropdown" id="elerhetosegek">
+            <li><button class="dropbtn"><b>&#35;</b>Közösségi Média</button></li>
+            <li><div class="dropdown-content">
+                <a href="https://www.instagram.com/tudasallapot/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/tudasallapot/" target="_blank">Facebook</a>
+                </div>
+            </li>
+        </ul>
+        <ul class="container3">
+            <li class="tospp" id="tosppid">Terms of Service | Privacy Policy</li>
+            <li><label for="newsletter" class="tospp">Jelentkezz fel e-mail címeddel, hogy kapj értesítést, ha új tartalmat töltünk fel az oldalra!</label></li>
+            <li><input type="email" placeholder="example@email.com" id="newsletter"></li>
+        </ul>
+        <ul class="container3">
+            <li class="hidden"><p>Ez a komponens komolyabb papírmunkába kerülne, így amíg nem lesz hivatalos és teljesen publikus a weboldal, addig ez nem visz sehova.</p></li>
+            <li class="tospp">A weboldalon található képek és más tartalom teljes mértékben paródia vagy szatíra jellegűek, senki se vegye komolyan!</li>
+            <li class="tospp">tudasallapot@gmail.com</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
