@@ -7,7 +7,7 @@
 		</description>
 		<setters>
 			<set name="category">Magic Armor</set>
-			<set name="cost" currency="gp">0</set>
+			<set name="cost" currency="gp">-</set>
 			<set name="slot">body</set>
 			<set name="type" addition="medium">Armor</set>
 			<set name="attunement">true</set>
@@ -16,5 +16,50 @@
 			<set name="name-format">Divine + {{parent}}</set>
 		</setters>
 	</element>
+	
+	<element name="Frostmage Armor" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_FROSTMAGE_ARMOR">
+		<description>
+			<p>This set of pauldron and breastplate grants you a +1 bonus to AC.</p>
+			<p class="indent">While attuned to this armor, you ignore resistance to cold damage when casting spells that deal cold damage, and immunity counts as resistance instead.</p>
+			<p class="indent">Additionally, while attuned to this armor, a number of times equal to your proficiency modifier, you can change the damage type of damage dealing spells you cast to cold.</p>
+		</description>
+		<setters>
+			<set name="keywords">frost, leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">-</set>
+			<set name="slot">body</set>
+			<set name="type" addition="leather">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Leather</set>
+			<set name="enhancement">1</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="name-format">Frostmage Armor</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+	
+	<!--<element name="Armor of Arcana" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ARMOR_OF_ARCANA">
+		<description>
+			<p>A light blue layer of arcane energy coats this set of body armor, as it's powered by your magical powers. You can add your Intelligence modifer as the bonus to the AC granted by this armor, instead of Dexterity.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcana, arcane, leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">-</set>
+			<set name="slot">body</set>
+			<set name="type" addition="studded leather">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">Studded Leather</set>
+			<set name="armorClass">12 + Int modifier</set>
+			<set name="name-format">Armor of Arcana</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="intelligence"/> ez a sor nagyon nem jó még he
+		</rules>
+	</element>-->
 
 </elements>
