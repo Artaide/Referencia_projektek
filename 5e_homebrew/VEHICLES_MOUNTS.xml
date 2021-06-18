@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 
-<element name="Dire Wolf" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ITEM_VEHICLE_MOUNT">
+	<element name="Dire Wolf" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ITEM_VEHICLE_MOUNT_DIRE_WOLF">
 		<description>
 			<p>The dire wolf mount has the stats of a dire wolf from the Monster Manual.</p>
 			<p><strong><em>Carrying Capacity.</em></strong> 255 lbs.</p>
@@ -13,6 +13,19 @@
 			<set name="type">Mount</set>
 		</setters>
 
+	</element>
+	
+	<element name="Living Wagon" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ITEM_VEHICLE_MOUNT_LIVING_WAGON">
+		<description>
+			<p>The living wagon is 3 times as long and 1.5 times as wide as a regular cart. It is robust enough where it can be furnished with light beds, bookcases, etc. Because of its weight, it needs at least 4 horses to pull it.</p>
+			<p><strong><em>Carrying Capacity.</em></strong> 1400 lbs.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="0">1000 lb.</set>
+			<set name="type">Mount</set>
+		</setters>
 	</element> 
 	
 </elements>
