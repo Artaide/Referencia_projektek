@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Ring of Mistvision" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_MISTVISION">
+		<description>
+			<p>While attuned to and wearing this ring, you can see through areas that are heavily obscured by non-magical mist, fog, rain or smoke.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Uncommon</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Ring of Lesser Fiendshape" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_LESSER_FIENDSHAPE">
+		<description>
+			<p>While attuned to and wearing this ring, it has 1 charge that is regained at dawn. As an action on your turn, you can spend that charge to temporarily turn yourself into a fiend of challenge rating 2 or lower.</p>
+			<p class="indent">Spending the charge to turn into a fiend works the same way as the druid's Wildshape feature.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+			<set name="charges">1</set>
+		</setters>
+	</element>
+	
+	<element name="Ring of Greater Fiendshape" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_GREATER_FIENDSHAPE">
+		<description>
+			<p>While attuned to and wearing this ring, it has 2 charges that are regained at dawn. As an action on your turn, you can spend that charge to temporarily turn yourself into a fiend of challenge rating 4 or lower.</p>
+			<p class="indent">Spending the charge to turn into a fiend works the same way as the druid's Wildshape feature.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Legendary</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+			<set name="charges">2</set>
+		</setters>
+	</element>
+	
+	<element name="Ring of Magical Aura" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_INK_OF_FORGING">
+		<description>
+			<p>Once per short rest, you can cast Nystul's Magical Aura around yourself or an item you carry.</p>
+		</description>
+		<setters>
+			<set name="keywords">aura, magical, nystul</set>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Very Rare</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Ring of Magic Barrage" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_WOTC_DMG_MAGIC_ITEM_RING_OF_MAGIC_BARRAGE">
+		<description>
+			<p>While attuned to and wearing this ring, whenever you critically hit with a spell that targets at least one creature, deals damage and you have to make an attack roll as part of it, you shoot out an extra projectile or ray towards a target creature of your choice that you could attack with the spell.</p>
+			<p class="indent">.</p>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Uncommon</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+			<set name="charges"></set>
+		</setters>
+	</element>
+
+</elements>

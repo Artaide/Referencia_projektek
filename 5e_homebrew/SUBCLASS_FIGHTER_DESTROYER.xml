@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	
+	<element name="The Destroyer" type="Archetype" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FIGHTER_DESTROYER">
+		<supports>Martial Archetype</supports>
+		<description>
+			<p>The archetypal destroyer rules the battlefield through pure power. Each strike they make with their massive weapons contains prodigious force, and each blow is made with the intent to overpower. While destroyers come from all walks of life, fighting for various casues just or evil, they all leave destruction in their wake.</p>
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_CRUSHING_BLOWS" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_REALIZATION_OF_DESTRUCTION" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_DISRUP_TEMPO" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_SHATTERING_MOUNTAIN" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_BREAK_THE_RANKS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_CRUSHING_BLOWS" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_REALIZATION_OF_DESTRUCTION" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_DISRUP_TEMPO" level="10" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_SHATTERING_MOUNTAIN" level="15" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_BREAK_THE_RANKS" level="18" />
+		</rules>
+	</element>
+	<element name="Crushing Blows" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_CRUSHING_BLOWS">
+		<description>
+			<p><em>3rd-level Destroyer feature</em></p>
+			<p>When you choose this archetype at 3rd level, you learn how to concentrate the might of several attacks into a single strike. Once per turn, when you take the Attack action with a heavy melee weapon, you can add your Strength modifier to the damage again.</p>
+			<p class="indent">Additionally, you can choose to forgo any number of extra attacks to empower your first attack, For each attack you forgo, your attack deals bonus damage equal to your weapon's damage die + twice your Strength modifier. If you forgo at least one attack, the target must succeed on a Strength saving throw against 10 + your proficiency modifier + your Strength score, or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Deal the damage of and attack (damage die + 2*STRm) for each forgone attack on your first one.</description>
+		</sheet>
+	</element>		
+	<element name="Realization of Destruction" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_REALIZATION_OF_DESTRUCTION">
+		<description>
+			<p><em>7th-level Destroyer feature</em></p>
+			<p>At 7th level, you have increased your ability to wreck havoc on your surroundings. Your attacks deal double damage to constructs.</p>
+		</description>
+		<sheet>
+			<description>You deal double damage to constructs</description>
+		</sheet>
+	</element>
+	<element name="Disrupt Tempo" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_DISRUP_TEMPO">
+		<description>
+			<p><em>10th-level Destroyer feature</em></p>
+			<p>At 10th level, your attacks are powerful enough to dirupt the flow of combat for your opponents. When you hit an enemy with your Crushing Blows feature, that creature has disadvantage on its first attack against you until the end of its next turn.</p>
+		</description>
+		<sheet>
+			<description>When you hit an enemy with your Crushing Blows feature, that creature has disadvantage on its first attack against you until the end of its next turn.</description>
+		</sheet>
+	</element>	
+	<element name="Shattering Mountain" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_SHATTERING_MOUNTAIN">
+		<description>
+			<p><em>15th-level Destroyer feature</em></p>
+			<p>At 15th level, your strikes can shatter the earth. When you use your action to strike the ground, or miss a Crushing Blow that is empowered by at least two forgone attacks, the creatures other than yourself in a 5-foot radius around your target must make a Strength saving throw against 10 + your proficiency modifier + your Strength score, or be knocked prone. If you use your action, the radius is increased to 10 feet.</p>
+		</description>
+		<sheet action = "Action">
+			<description>When you use your action to strike the ground, or miss a Crushing Blow that is empowered by at least 2 forgone attacks, the creatures other than yourself in a 5-foot radius around your target must make a Strength saving throw against 10 + your proficiency modifier + your Strength score, or be knocked prone. If you use your action, the radius is increased to 10 feet.</description>
+		</sheet>
+	</element>
+	<element name="Break the Ranks" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_DESTROYER_BREAK_THE_RANKS">
+		<description>
+			<p><em>18th-level Destroyer feature</em></p>
+			<p>At 18th level, your attacks are great enough to scatter armies. When you make a Crushing Blow empowered by at least 2 forgone attacks, creatures adjacent to your target must make a Dexterity saving throw against 10 + your proficiency modifier + your Strength score, or take the same damage as your target and be knocked prone. If you have forgone at least 3 attacks, te creatures have disadvantage on the saving throw.</p>
+		</description>
+		<sheet>
+			<description>When you make a Crushing Blow empowered by at least 2 forgone attacks, creatures adjacent to your target must make a Dexterity saving throw against 10 + your proficiency modifier + your Strength score, or take the same damage as your target and be knocked prone. If you have forgone at least 3 attacks, te creatures have disadvantage on the saving throw.</description>
+		</sheet>
+	</element>	
+</elements>

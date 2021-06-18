@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Cloak of Magical Protection" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_CLOAK_OF_MAGICAL_PROTECTION">
+		<description>
+			<p>While you are wearing and attuned to this cloak, you take reduced damage from spells. Each time you are hit by spell attack, subtract a number from the damage taken equal to your proficiency modifier. If you would take damage less than your proficiency modifier from a spell attack, you take no damage instead.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, damage, magic, protection</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lbs.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Blood Medallion" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_OF_BLOOD_MEDALLION">
+		<description>
+			<p>While attuned to this item, when you fail a Constitution saving throw (including ones made to maintain Concentration) by up to a difference equal to your spellcasting ability modifier, you can choose to succeed instead.</p>
+			<p class="indent"><b>Curse.</b> When you would fail a Constitution saving throw, and use the previous feature of this medallion to succeed, you take 1d10 necrotic damage. Nothing short of a Wish spell can break the curse without unattuning you from this item.</p>
+		</description>
+		<setters>
+			<set name="keywords">blood, curse, pendant</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="attunement">true</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Arcane Flower" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ARCANE_FLOWER">
+		<description>
+			<p>This 5 inch tall flower with a blue, angular petals seems to not wither away even in the most cruel of environments. While on your person, the flower can give you a quick burst of arcane energy.</p>
+			<p class="indent">For each different spell slot levels available to you, the flower has as many charges. As a bonus action on your turn, when you run out of spell slots of a certain level, you can cast another spell of the same level. You can't use this feature on that spell level again until you finish a short or long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">flower</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Shield of Dashing" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_SHIELD_OF_DASHING">
+		<description>
+			<p>This is a +1 magical shield. While wieling it, as a bonus action on your turn, you can dash up to 10 feet away in any horizontal direction. Dashing through Medium of smaller creatures this way doesn't hinder your movement.</p>
+		</description>
+		<setters>
+			<set name="keywords">dash, shield</set>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">10 lbs.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+3</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Bracelet of Magic" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ARCANE_FLOWER">
+		<description>
+			<p>This electrum bracelet automatically resizes to fit your wrist. Once per short rest when you cast a spell, you can do so without expending a spell slot, if the slot you would spend is equal to or lower than your spellcasting ability modifier.</p>
+		</description>
+		<setters>
+			<set name="keywords">bracelet</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Ankh Shield" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ANKH_SHIELD">
+		<description>
+			<p>This is a +4 magical shield. You have advantage on saving throws against all conditions while wielding it.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">10 lbs.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+5</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+	
+	<element name="Pocket Garden" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_POCKET_GARDEN">
+		<description>
+			<p>This small chest is mainly made of black mahogany, with its handles on the side and 2 clasps on the front made of bronze. Its weight is that of an emtpy chest of the same materials and size.</p>
+			<p class="indent">The chest holds 1/2 cubic feet of ever-fertile soil that can accomodate any combination of small bushes, tall plants and flowers, but the plants have to fit in a 5-foot cube. The interior of the chest is bigger than the chest itself, and is always perfectly adapted to the needs of the plants inside it, so anything planted in there doesn't need water, air or sunlight from outside sources, and don't seem to age after blooming or ripening, until removed from the chest. Plants inside the pocket garden also grow at an accelerated pace, around 3 times as fast as under regular circumstances.</p>
+			<p class="indent">You don't need to be attuned to the pocket garden to be able to grow plants in it, but while attuned, you always know the condition of the plants inside, and when opening it, you can stop any smells from spreading outwards.</p>
+		</description>
+		<setters>
+			<set name="keywords">chest, garden, pocket</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">20 lbs.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	
+	<element name="Glyph Seal, Divine" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GLYPH_SEAL_DIVINE">
+		<description>
+			<p>These magical, iron or gold coin-like tokens are mostly used by clerics and paladins. While this glyph is on your person you can have a spell from the cleric or paladin spell list stored in it depending on which is available to you, and a triggering action set that activates the spell.</p>
+			<p class="indent">Once per long rest, you can store a cleric or paladin spell in the glyph by casting it while focused on the seal, and the spell stays stored until triggered, overridden or you unattune from the seal. The spell can only be of 3rd level or lower, storing it spends the spell slot it would if you cast it regurarly, and the glyph itself is not the focus of the spell, it only acts as an extension of you.</p>
+			<p class="indent">If you try to store a spell, but there already is one stored in the glyph, it is overridden and isn't triggered. You can also change the trigger requirements once per short rest, without having to store a spell again.</p>
+			<p class="indent">Often used triggering actions are: being hit with an attack, being grappled or shoved, a certain creature or type of creature getting near you, being completely engulfed by water, slime or other substances.</p>
+		</description>
+		<setters>
+			<set name="keywords">divine, glyph, seal</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Seal</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Glyph Seal, Druidic" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GLYPH_SEAL_DRUIDIC">
+		<description>
+			<p>These magical, wooden or limestone coin-like tokens are mostly used by druids and rangers. While this glyph is on your person you can have a spell from the druid spell list stored in it, and a triggering action set that activates the spell.</p>
+			<p class="indent">Once per long rest, you can store a druid spell in the glyph by casting it while focused on the seal, and the spell stays stored until triggered, overridden or you unattune from the seal. The spell can only be of 3rd level or lower, storing it spends the spell slot it would if you cast it regurarly, and the glyph itself is not the focus of the spell, it only acts as an extension of you.</p>
+			<p class="indent">If you try to store a spell, but there already is one stored in the glyph, it is overridden and isn't triggered. You can also change the trigger requirements once per short rest, without having to store a spell again.</p>
+			<p class="indent">Often used triggering actions are: being hit with an attack, being grappled or shoved, a certain creature or type of creature getting near you, being completely engulfed by water, slime or other substances.</p>
+		</description>
+		<setters>
+			<set name="keywords">druidic, glyph, seal</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Seal</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Glyph Seal, Eldritch" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GLYPH_SEAL_ELDRITCH">
+		<description>
+			<p>These magical, bone or silver coin-like tokens are mostly used by warlocks. While this glyph is on your person you can have a spell from the warlock spell list stored in it, and a triggering action set that activates the spell.</p>
+			<p class="indent">Once per long rest, you can store a warlock spell in the glyph by casting it while focused on the seal, and the spell stays stored until triggered, overridden or you unattune from the seal. The spell can only be of 3rd level or lower, storing it spends the spell slot it would if you cast it regurarly, and the glyph itself is not the focus of the spell, it only acts as an extension of you.</p>
+			<p class="indent">If you try to store a spell, but there already is one stored in the glyph, it is overridden and isn't triggered. You can also change the trigger requirements once per short rest, without having to store a spell again.</p>
+			<p class="indent">Often used triggering actions are: being hit with an attack, being grappled or shoved, a certain creature or type of creature getting near you, being completely engulfed by water, slime or other substances.</p>
+		</description>
+		<setters>
+			<set name="keywords">eldritch, glyph, seal</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Seal</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Glyph Seal, Arcane" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GLYPH_SEAL_ARCANE">
+		<description>
+			<p>These magical, electrum or copper coin-like tokens are mostly used by sorcerers, wizards, eldritch knights and arcane tricksters. While this glyph is on your person you can have a spell from the sorcerer or wizard spell list stored in it depending on which is available to you, and a triggering action set that activates the spell.</p>
+			<p class="indent">Once per long rest, you can store a sorcerer or wizard spell in the glyph by casting it while focused on the seal, and the spell stays stored until triggered, overridden or you unattune from the seal. The spell can only be of 3rd level or lower, storing it spends the spell slot it would if you cast it regurarly, and the glyph itself is not the focus of the spell, it only acts as an extension of you.</p>
+			<p class="indent">If you try to store a spell, but there already is one stored in the glyph, it is overridden and isn't triggered. You can also change the trigger requirements once per short rest, without having to store a spell again.</p>
+			<p class="indent">Often used triggering actions are: being hit with an attack, being grappled or shoved, a certain creature or type of creature getting near you, being completely engulfed by water, slime or other substances.</p>
+		</description>
+		<setters>
+			<set name="keywords">arcane, glyph, seal</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Seal</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Mansion Key" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_MAGNIFICENT_MANSIONS_KEY">
+		<description>
+			<p>This silver key can open a portal to an instance of the Mordenkainen's Magnificent Mansion spell. You can use the key to open such an entrance once per long rest as if you cast the spell, but with a casting time of 1 action instead of 1 minute.</p>
+			<p class="indent">When entering, you can leave the key in the entrance, and while it's left there,  the duration of the spell is extended until you remove the key, after which you have 24 hours before the spell ends.</p>
+		</description>
+		<setters>
+			<set name="keywords">key, magnificent, mansion</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Ink of Forging" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_INK_OF_FORGING">
+		<description>
+			<p>When using this ink to write on a piece of ordinary paper other suitable, non-magical material, you and other creatures designated by you see the writing as normal, with the meaning you intended. To all others the text seems unintelligible, or a completely different message.</p>
+			<p class="indent">Writing on magical paper causes the ink to become either invisible, or the message of the writing to become understandable by all who can read at least in one language, your choice.</p>
+			<p class="indent">One ounce of this ink is enough for 400 pages.</p>
+		</description>
+		<setters>
+			<set name="keywords">forging, ink</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	
+	<element name="Shield of Carrying" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_SHIELD_OF_CARRYING">
+		<description>
+			<p>You can cast Tenser's Floating Disk at will while wielding this shield, which becomes the disk itself.</p>
+		</description>
+		<setters>
+			<set name="keywords">carrying, shield, tenser</set>
+			<set name="category">Armor</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="rarity">Rare</set>
+			<set name="armorClass">+2</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+	
+	<element name="Blunderbuss" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELLCASTING_FOCUS_BLUNDERBUSS">
+		<description>
+			<p>An arcane focus is a special item— an orb, a crystal, a rod, a specially constructed staff, a wand—like length of wood, or some similar item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1">5 lb.</set>
+			<set name="container">Arcane Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	
+	<element name="Weedkief's Staff of Chains" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_STAFF_OF_CHAINS">
+		<description>
+			<p>This staff is made mainly of bronze, and it has a deep river-like carving from one end to the other, which is filled with copper. There are 4 chain links of iron at the end, that faintly glow with blue light.</p>
+			<p class="indent">The staff has 4 charges. As an action, you can expend a charge to cast <i>Eidolic Chains</i> (Grimlore’s Grimoire) at a creature, or expend 2 charges to create chains on the ground in a 20-foot-diameter circle, that are stretched upwards. The area is difficult terrain, and any creature of your choice that are in the area upon spending the 2 charges or enter the area while it's active, must succeed on a Strength saving throw or become restrained. The chains stay for 1 minute. Restrained creatures can repeat the saving throw to try and break free at the and of each of their turns.</p>
+			<p class="indent">The staff regains all charges upon finishing a long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">chains, staff</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">20 lbs.</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Rod of Witch's Lightning" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELLCASTING_FOCUS_ROD_OF_WITCHS_LIGHTNING">
+		<description>
+			<p>This platinum rod with a teal crystal at the end acts an arcane focus. Once per day, you can cast <i>witch bolt</i> at a spell level equal to the greatest spell slot level you have access to. The automatic damage on subsequent turns after casting it takes a bonus action to do, instead of an action, when using this rod.</p>
+		</description>
+		<setters>
+			<set name="keywords">bolt, lightning, witch</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+	
+	<element name="Rod of Striking" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_ROD_OF_STRIKING">
+		<description>
+			<p>This magical rod has a titanium hilt holding a dioptase gem structure consisting of 3 cubes on top of each other, decreasing in size towards the top. The rod has 6 charges, 3 of which the largest crystal cube contains, 2 of which the middle one, and 1 of which the smallest one does. As a bonus action on your turn, you can remove one of the cubes, and use it as a seperate arcane focus, that still has the same amount of charges as it did before. Doing so decreases the number of charges in the main rod, by the associated number, until you place is back. You don't have to be a spellcaster in order to use a cube.</p>
+			<p class="indent">As a bonus action on your turn, you can expend a charge to shoot lightning towards a creature within 30 feet of you, from one of the cubes. When doing so, make a ranged spell attack against the creature, on a hit it takes 1d8 lightning damage, increased to 2d8 if the creature is wearing metal armor, is in water or soaked in water. If you hold the largest cube and you haven't spent any charges from it, or the whole you hold the rod with at least 3 charges, you can expend all 3 of them, and cast Lightning Bolt at 3rd level without expending a spell slot.</p>
+			<p class="indent">The rod regains 1d6 charges at dawn, but only if it is completely assembled. The cubes fill up with charges in ascending order of size. If the rod is placed outdoors during a stormy night, it regains all charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">lightning, strike, striking</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">6</set>
+		</setters>
+	</element>
+	
+	<element name="Staff of Parasitism" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_STAFF_OF_PARASITIMS">
+		<description>
+			<p>A hardwood staff, one of its ends resembling a spherical cage, containing a perfect cube of tanzanite.</p>
+			<p class="indent">This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.</p>
+			<p class="indent">While holding this staff, you can use an action to expend 1 of its 10 charges to force a non-construct, non-undead creature within 60 feet of you to make a Constitution saving throw. On a fail, the target takes 2d6 necrotic damage, and has disadvantage on attack rolls, ability checks and saving throws for 1 hour.</p>
+			<p class="indent">If you are holding the staff and fail a Constitution saving throw, you can turn your failed save into a successful one. You can’t use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff’s intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.</p>
+			<p class="indent">The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff.</p>
+		</description>
+		<setters>
+			<set name="keywords">bard, cleric, druid, sorcerer, warlock, wizard</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a bard, cleric, druid, sorcerer, warlock, or wizard">true</set>
+			<set name="rarity">Rare</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+	
+	<element name="Azure Fracture" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_AZURE_FRACTURE">
+		<description>
+			<p>This magical rod has 5 charges. As a bonus action on your turn, you can spend a spell slot and one charge to shoot 3 star-shaped projectiles of arcane energy. Choose up to 3 creatures within 60 feet of you that you can see, and make 3 ranged spell attacks distributed among them. On a hit a projectile deals 1d6 force damage for every level of the spell slot you spent.</p>
+			<p class="indent">The rod regains 1d4 + 1 charges at dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">fracture, sky</set>
+			<set name="category">Rods</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Rod</set>
+			<set name="slot">onehand</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="charges">5</set>
+		</setters>
+	</element>
+	
+	<element name="Riverstone Necklace" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_RIVERSTONE_NECKLACE">
+			<p>This medallion holds a pearl from freshwater mussel. It has 10 charges, and when casting a damaging spell or hitting with a weapon or spell attack you can spend a charge to cause the pearl to shine, and the ally with the lowest amount of Hit Points within 30 feet of you is healed for a number equal to your spellcasting ability modifier.</p>
+			<description>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set name="keywords">necklace, pearl, rejuvenate, rejuvenation, river, riverstone</set>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+	
+</elements>

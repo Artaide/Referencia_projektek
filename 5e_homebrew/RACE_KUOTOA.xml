@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Kuo-Toa" type="Race" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACE_KUOTOA">
+    <description>
+      <p class="flavor">Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as vagabonds and burglars who live at the edge of human society. Kenku suffer from a sinister reputation that is not wholly unearned, but they can prove to be valuable allies.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>A kuo-toa superficially resemble a grotesque cross between a fish and a humanoid. Their stout, stocky bodies are covered in slippery blue or purple scales, with clawed, webbed feet and black nails. Their hands are much more human-like, ending in the blunt nails typical of most humanoid races. Where one would normally expect the neck of a humanoid to be, there is instead the head of a fish, placed as if it had been grafted on. Some kuo-toa will display whiskers similar to those of a catfish, others have fins at the sides or tops of their heads, and a few have a mixture of both. Their bulging eyes are always a sickly yellow color, with a massive black pupil in the center.</p>
+
+      <h4>HISTORY</h4>
+      <p>In days long past, kuo-toa once dwelled on the shores and islands of the surface world. The kuo-toa were driven deep underground by the humans and their ilk, dooming them to spend eternity in darkness. In their prison of the Underdark, the kuo-toa came into contact with the illithid, and found themselves a new set of oppressors. The illithid subjected the kuo-toa to slavery, condemning thousands to lives as chattel. The kuo-toa were a simple race, and were never intended to bear through the mental strain the illithids' psychic energy placed upon them. Nearly every kuo-toa was driven hopelessly mad and paranoid, and they retain their madness, even long after the mind flayers abandoned them. They invent their own gods in their madness, in a vain effort to protect themselves from the threats they face in their dangerous home.</p>
+
+      <h4>SOCIETY</h4>
+      <p>Kuo-toa revere deities of their own design. Though their gods are not real, if enough kuo-toa fervently believe in a deity, their subconcious minds have a strange way of combining their power and manifesting that deity as a physical entity. Among the most revered kuo-toa gods are Blibdoolpoolp the Sea Mother, a female human with a crayfish head, claws, and shell covering her shoulders. Archpriests hold among the highest positions in kuo-toa society, being surrounded by fanatical devotees of their faith. Archpriests' devotion to their deity is so fervent that they manifest divine powers similar to a cleric. Archpriests also have the power to bestow a fraction of their mystical powers to particularly loyal underlings known as whips, who fight to the death to become the archpriest's heir when the archpriest succumbs. A disloyal whip may be stripped of its powers, if not its life. Most other humanoid societies view the kuo-toas' strange ways with disdain, chief among them being the Drow, who have slain the kuo-toa on sight as long as the two races have known each other.</p>
+
+      <h4>KUO-TOA NAMES</h4>
+      <p>Kuo-toa names are either stolen from other cultures or pulled from the dark depths of their insane minds, providing little deep meaning.</p>
+      <p>Male Names: Flip, Trent, Trajor, JolJom, Shuushar, Ploopploopeen, Glooglugogg</p>
+      <p>Female Names: Sally, Feminis, Sardini, Bloppblippodd</p>
+	  
+      <h4>KUO-TOA TRAITS</h4>
+      <p>Your Kuo-Toa character has the following racial traits.</p>
+      <p>
+      <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and one ability score of your choice by 1.<br/>
+      <span class="feature">Age.</span>The Kuo-toa age a bit faster than humans, reaching maturity at age 7 and living around half a century.<br/>
+      <span class="feature">Alignment.</span> Kuo-toa generally tend towards evil, their insane minds feeding their primal selfishness.<br/>
+      <span class="feature">Size.</span>Kuo-toa range from a little over 4 and a half to just barely over 5 feet tall, and weigh on average 120 pounds. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.<br/>
+      <span class="feature">Amphibious.</span>You can breathe in both air and water.<br/>
+      <span class="feature">Darkvision.</span>You are accustomed to the darkness of the Underdark, where daylight has no power. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+	  <span class="feature">Slippery.</span>You have advantage on ability checks and saving throws made to escape a grapple or avoid being grappled.<br/>
+	  <span class="feature">Otherworldly Perception.</span> As an action, you can choose to glimpse beyond the veil of reality for a brief window of time. For the next minute, you can see invisible creatures and objects within 60 feet of you as if they were visible, and you can see 60 feet into the Ethereal Plane.<br/>
+	  <span class="feature">Deification.</span>If at least 10 Kuo-Toas gather together and worship an object or creature as a god, that object or creature begins to gain the powers of a god. It’s Intelligence, Wisdom, and Charisma scores all increase to 7 if they are not already 7 or higher. In addition, for each Kuo-Toa that has worshipped the creature, it gains an ability score increase, allowing it to add 1 point to any of its stats, up to a maximum of 40.<br/>
+	  <span class="feature">Deep Sea Dweller.</span> You are accustomed to deep sea environments, being on the surface is disadvantageous for you. You have disadvantage on Wisdom (Perception) checks in daylight, and if you don't cover yourself in water daily, you gain a point of exhaustion, which a long rest doesn't get rid of. While you have at least 1 exhaustion point imposed by this feature, your Slippery trait is unactive.<br />
+      <span class="feature">Languages.</span>You can speak, read and write Common and Undercommon.<br/></p>      
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d4">4'6"</set>
+      <set name="weight" modifier="2d8">100 lb.</set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="2" />
+	  <select type="Racial Trait" name="Ability Score Increase (Kuo-Toa)" supports="Kuo-Toa" number="1" />
+      <stat name="innate speed" value="30" bonus="base" />
+	  <stat name="innate speed:swim" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+	  <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_AMPHIBIOUS" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DARKVISION" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_SLIPPERY" />
+	  <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_OTHERWORLDY_PERCEPTION" />
+	  <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DEIFICATION" />
+	  <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DEEP_SEA_DWELLER" />
+    </rules>
+  </element>
+  
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_RACIAL_TRAIT_KUOTOA_STRENGTH">
+		<compendium display="false" />
+		<supports>Kuo-Toa</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_RACIAL_TRAIT_KUOTOA_DEXTERITY">
+		<compendium display="false" />
+		<supports>Kuo-Toa</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_RACIAL_TRAIT_KUOTOA_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Kuo-Toa</supports>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_RACIAL_TRAIT_KUOTOA_WISDOM">
+		<compendium display="false" />
+		<supports>Kuo-Toa</supports>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_RACIAL_TRAIT_KUOTOA_CHARISMA">
+		<compendium display="false" />
+		<supports>Kuo-Toa</supports>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1"/>
+		</rules>
+	</element>
+
+   <element name="Amphibious" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_AMPHIBIOUS">
+    <description>
+      <p>You can breathe in both air and water.</p>
+    </description>
+    <sheet>
+      <description>You can breathe in both air and water.</description>
+    </sheet>
+  </element>
+
+   <element name="Darkvision" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_DARKVISION">
+    <description>
+      <p>You are accustomed to the darkness of the deep sea, where daylight has no power. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+    </description>
+    <sheet display="false">
+      <description>You are accustomed to the darkness of the deep sea, where daylight has no power. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+    </sheet>
+  </element>
+
+   <element name="Slippery" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_SLIPPERY">
+    <description>
+      <p>You have advantage on ability checks and saving throws made to escape a grapple or avoid being grappled.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on ability checks and saving throws made to escape a grapple or avoid being grappled.</description>
+    </sheet>
+  </element>
+  
+  <element name="Otherworldly Perception" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_OTHERWORLDY_PERCEPTION">
+    <description>
+      <p>As an action, you can choose to glimpse beyond the veil of reality for a brief window of time. For the next minute, you can see invisible creatures and objects within 60 feet of you as if they were visible, and you can see 60 feet into the Ethereal Plane.</p>
+    </description>
+    <sheet>
+      <description>As an action, you can choose to glimpse beyond the veil of reality for a brief window of time. For the next minute, you can see invisible creatures and objects within 60 feet of you as if they were visible, and you can see 60 feet into the Ethereal Plane.</description>
+    </sheet>
+  </element>
+  
+   <element name="Deification" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_DEIFICATION">
+    <description>
+      <p>If at least 10 Kuo-Toas gather together and worship an object or creature as a god, that object or creature begins to gain the powers of a god. It’s Intelligence, Wisdom, and Charisma scores all increase to 7 if they are not already 7 or higher. In addition, for each Kuo-Toa that has worshipped the creature, it gains an ability score increase, allowing it to add 1 point to any of its stats, up to a maximum of 40.</p>
+    </description>
+    <sheet>
+      <description>If at least 10 Kuo-Toas gather together and worship an object or creature as a god, that object or creature begins to gain the powers of a god. It’s Intelligence, Wisdom, and Charisma scores all increase to 7 if they are not already 7 or higher. In addition, for each Kuo-Toa that has worshipped the creature, it gains an ability score increase, allowing it to add 1 point to any of its stats, up to a maximum of 40.</description>
+    </sheet>
+  </element>
+  
+  <element name="Deep Sea Dweller" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_DEEP_SEA_DWELLER"></element>
+	<description>
+		<p>You are accustomed to deep sea environments, being on the surface is disadvantageous for you. You have disadvantage on Wisdom (Perception) checks in daylight, and if you don't cover yourself in water daily, you gain a point of exhaustion, which a long rest doesn't get rid of. While you have at least 1 exhaustion point imposed by this feature, your Slippery trait is unactive.</p>
+	</description>
+	<sheet>
+		<description>
+			<p>You are accustomed to deep sea environments, high pressure doesn't affect you, however being on the surface is disadvantageous. You have disadvantage on Wisdom (Perception) checks in daylight, and if you don't cover yourself in water daily, you gain a point of exhaustion, which a long rest doesn't get rid of. While you have at least 1 exhaustion point imposed by this feature, your Slippery trait is unactive.</p>
+		</description>
+	</sheet>
+</elements>

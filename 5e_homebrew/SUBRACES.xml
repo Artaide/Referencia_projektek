@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Dracomyst" type="Race Variant" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACE_VARIANT_DRAGONBORN_DRACOMYST">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Dracomysts possess more humanoid feature, than draconic ones, the latter being faintly scaly skin in different colors, and a couple of horns or spikes along with clawed hands.</p>
+			<p class="indent">A Dracomyst uses the dragonborn traits in the Player’s Handbook, with the following traits replacing the Ability Score increase, and Damage Resistance traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Draconic Instinct.</em></strong> You can sense the presence of any draconic creature up to 300 feet away from you. For the first hour of meeting said creature, it has disadvantage on all Charisma saving throws and checks against you or effects originating from you, and you have advantage on all Charisma saving throws or checks against that creature or effects originating from them.</p>
+			<p class = "indent"><strong><em>Dragon Mysticism.</em></strong> Once per long rest you can grant yourself advantage on a roll required to determine the success or failure of a spell you cast. If you fail the roll after using this feature, you can use it again after a short rest instead of a long one, but you can only do so once per day.</p>
+		</description>
+		<sheet alt="Dracomyst" display="false" />
+		<rules>
+			<grant type="Grants" id="ID_CUSTOM_GRANTS_DRAGONBORN_VARIANT" />
+			<stat name="charisma" value="2" />
+			<stat name="dexterity" value="1" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DRACOMYST_DRACONIC_INSTINCT" />
+			<grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_DRACOMYST_DRAGON_MYSTICISM" />
+		</rules>
+	</element>
+	<element name="Draconic Instinct" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_DRACOMYST_DRACONIC_INSTINCT">
+		<description>
+			<p>You can sense the presence of any draconic creature up to 300 feet away from you. For the first hour of meeting said creature, it has disadvantage on all Charisma saving throws and checks against you or effects originating from you, and you have advantage on all Charisma saving throws or checks against that creature or effects originating from them.</p>
+		</description>
+		<sheet usage="1/met creature, 1 hour only">
+			<description>For the first hour of meeting said creature, it has disadvantage on all Charisma saving throws and checks against you or effects originating from you, and you have advantage on all Charisma saving throws or checks against that creature or effects originating from them.</description>
+		</sheet>
+	</element>
+	
+	<element name="Dragon Mysticism" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_DRACOMYST_DRAGON_MYSTICISM">
+		<description>
+			<p> Once per long rest you can grant yourself advantage on a roll required to determine the success or failure of a spell you cast. If you fail the roll after using this feature, you can use it again after a short rest instead of a long one, but you can only do so once per day.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Once per long rest you can grant yourself advantage on a roll required to determine the success or failure of a spell you cast. If you fail the roll after using this feature, you can use it again after a short rest instead of a long one, but you can only do so once per day.</description>
+		</sheet>
+	</element>
+	
+</elements>

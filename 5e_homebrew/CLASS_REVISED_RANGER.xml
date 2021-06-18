@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ranger</name>
+		<description>The Ranger class from the Axel's Homebrew Collected from Many Places.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.2.9">
+			<file name="class-ranger.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-ranger.xml" />
+		</update>
+	</info>
+
+	<element name="Ranger" type="Class" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_PHB_CLASS_RANGER">
+		<description>
+			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
+			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
+			<p class="indent">After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon’s thick scales.</p>
+			<p class="indent">Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he’s been tracking and sends the hawk to distract the creature while he readies his bow.</p>
+			<p class="indent">Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+			<h4>DEADLY HUNTERS</h4>
+			<p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.</p>
+			<p class="indent">Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands.</p>
+			<h4>INDEPENDENT ADVENTURERS</h4>
+			<p>Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense.</p>
+			<p class="indent">This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.</p>
+			<h4>CREATING A RANGER</h4>
+			<p>As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger’s ways? Did you leave your apprenticeship, or was your mentor slain— perhaps by the same kind of monster that became your Examine Enemy and Environment? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.</p>
+			<p class="indent">What’s the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a ranger, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per ranger level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per ranger level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong>Dexterity, Constitution</li>
+                <li><strong>Skills:</strong> Choose three skills from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li> <i>(a)</i> scale mail or <i>(b)</i> leather armor </li>
+				<li> <i>(a)</i> two shortswords or <i>(b)</i> two simple melee weapons </li>
+				<li> <i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack </li>
+				<li>A longbow and a quiver of 20 arrows</li>
+			</ul>
+			<h5 class="caption">THE RANGER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Examine Enemy and Environment</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Fighting Style, Hunter's Determination, Spellcasting</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Ranger Archetype, Primeval Awareness</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">-</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Ranger Archetype feature</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement, Land’s Stride</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Hide in Plain Sight</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Ranger Archetype feature</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Vanish</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Ranger Archetype feature</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Feral Senses</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Foe Slayer</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_EXAMINE_ENEMY_AND_ENVIRONMENT" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_HUNTERS_DETERMINATION" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_SPELLCASTING" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_ASI" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_LANDS_STRIDE" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_VANISH" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_FERAL_SENSES" />
+			<div element="ID_CUSTOM_CLASSFEATURE_RANGER_FOE_SLAYER" />
+		</description>
+		<sheet display="false">
+			<description>A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</description>
+		</sheet>
+		<setters>
+			<set name="short">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_CUSTOM_PHB_MULTICLASS_RANGER" />
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_EXAMINE_ENEMY_AND_ENVIRONMENT" level="1"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_HUNTERS_DETERMINATION" level="1"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" level="3"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_ASI" level="4"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_LANDS_STRIDE" level="8"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" level="10"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_VANISH" level="14"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_FERAL_SENSES" level="18"/>
+			<grant type="Class Feature" id="ID_CUSTOM_CLASSFEATURE_RANGER_FOE_SLAYER" level="20"/>
+		</rules>
+		<multiclass id="ID_CUSTOM_PHB_MULTICLASS_RANGER">
+			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+			<requirements>([dex:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Examine Enemy and Environment" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_EXAMINE_ENEMY_AND_ENVIRONMENT">
+		<description>
+			<p>Beginning at 1st level, you can spend a short rest examining a creature.</p>
+			<p class="indent">By the end of a short rest you determine the type of the creature, along with its resistances/immunities, vulnerabilites, which saving throws it's proficient in if any, its senses, condition immunities and challenge rating.</p>
+			<p class="indent">You have advantage on Wisdom (Survival) checks made to track down or recall information about the examined creature. Spending 5 short rests on examining 5 different creatures of the same type grants you advantage on checks made to track down and recall information about any creature of that type.</p>
+			<p class="indent">Also from 1st level onward, you can spend 1 day of downtime exploring a type of natural environment, be it arctic, coast, desert, forest, grassland, mountain, swamp or the Underdark. After a day of inspecting the environment, you can't get lost and are no longer affected by natural difficult terrain in that type of environment, and neither is your group while they travel with you.</p>
+			<p class="indent">While in familiar territory, you can't be surprised even when engaged in activities such as foraging, navigating or tracking, and traveling alone lets you move stealthily at a normal pace, and while tracking other creatures, you learn their exact number, their sizes and how long ago they passe through the area.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Survival checks to track your examined enemies, as well as on Intelligence checks to recall information about them. You can also spend a day of downtime to explore your surroundings, granting you traveling advantages.</description>
+		</sheet>
+	</element>
+	<element name="Hunter's Determination" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_HUNTERS_DETERMINATION">
+		<description>
+			<p>Starting at 2nd level, you can cast Hunter's Mark on a creature of your choice without expending a spell slot. You can do so a number of times equal to your Wisdom modifier per long rest. You always cast this spell at the highest available level when using this feature.</p>
+			<p class="indent">Once per short rest, if you roll for initiative and you can't cast Hunter's Mark this way, you can do so once in that combat.</p>
+			<p class="indent">Beginning at 5th level, you can cast the Locate Animals or Plants spell twice per long rest without expending a spell slot.</p>
+		</description>
+		<sheet>
+			<description>Starting at 2nd level, you can cast Hunter' Mark without expending a spell slot a number of times equal to your Wisdom Modifier per long rest. From 5th level onward, you can also cast Locate Animals and Plants without expending a spell slot twice per long rest</description>
+		</sheet>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_FIGHTING_STYLE">
+		<description>
+			<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5 class="caption">[WIP]BLIND FIGHTING</h5>
+			<p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover. even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">[WIP]DRUIDIC WARRIOR</h5>
+			<p>You learn two cantrips of your choice from the druid spell list. They count as ranger spell for you, and Wisdom is you spellcasting ability modifier for them.</p>
+			<p class="indent">Whenever you gain a level in this class, you can replace on of these cantrips with another cantrip from the druid spell list.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5 class="caption">[WIP]THROWN WEAPON FIGHTING</h5>
+			<p>You can draw a weapon that has the thrown property as a part of the attack you make with the weapon.</p>
+			<p class="indent">In addition, when you hit with a ranged attack using a thrown weapon, you gain a + 2 bonus to the damage roll.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_SPELLCASTING">
+		<description>
+			<p>By the time you reach 2nd level, you have learned to use the magical essence of nautre to cast spells, much as a druid does. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 11 for the ranger spell list.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell *animal friendship* and have a 1st-level and a 2nd-level spell slot available, you can cast *animal friendship* using either slot.</p>
+			<h5>PREPARING SPELLS</h5>
+			<p>After finishing a long rest, you prepare a list of spells available to you. When you do so, choose a number of ranger spells equal to your Wisdom modifier + half your Ranger level (rounded down, minimum of one spell). These spells must be of a level for which you have spell slots.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+		</description>
+		<sheet display="false">
+			<description>You have learned to use the magical essence of nature to cast spells, much as a druid does.</description>
+		</sheet>
+		<spellcasting name="Ranger" ability="Wisdom" prepared="true">
+			<list known="true">Ranger</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="ranger:spellcasting:slots:1" value="2" level="2" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="3" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="2" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="1" level="7" />
+			<stat name="ranger:spellcasting:slots:3" value="2" level="9" />
+			<stat name="ranger:spellcasting:slots:3" value="1" level="11" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="13" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="15" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="19" />
+			<stat name="ranger:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="ranger:spellcasting:prepare" value="level:ranger:half" />
+		</rules>
+	</element>
+	<element name="Ranger Archetype" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">
+		<description>
+			<p>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
+		</rules>
+	</element>
+	<element name="Primeval Awareness" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS">
+		<description>
+			<p>As an action on your turn, you can use your instincts on an extremely heightened level for a brief moment, allowing you to gather information about your surroundings. You gain knowledge of the location and danger-level all non-plant lifeforms up to 1 mile away from you, along with all contraptions set up as traps, all natural hazards and magical anomalies, such as rifts to other planes, large-scale protective magic, etc.</p>
+		</description>
+		<sheet display="false">
+			<description>You can focus your awareness through the interconnections of nature. You gain knowledge about creatures, traps and magical anomalies in a 1 mile radius around you.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Ranger 4)" supports="Improvement Option,Ranger,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Ranger 8)" supports="Improvement Option,Ranger,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Ranger 12)" supports="Improvement Option,Ranger,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Ranger 16)" supports="Improvement Option,Ranger,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Land’s Stride" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_LANDS_STRIDE">
+		<description>
+			<p>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p>
+			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
+		</description>
+		<sheet>
+			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+			You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</description>
+		</sheet>
+	</element>
+	<element name="Hide in Plain Sight" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT">
+		<description>
+			<p>Starting at 10th level, you can spend 1 minute creating camouflage for a creature of Medium size or smaller. You must have access to mud, dirt, plants, soot, or other naturally occuring materials with which to create the camouflage.</p>
+			<p class="indent">Once camouflaged in this way, a creature can try to hide by pressing itself against a solid surface, such as a tree or wall, that is at keast as tall and wide as the creature itself. The camouflaged creature gains a +10 bonus to Dexterity (Stealth) checks while remaining motionless, or a +5 if they move only 5 feet per turn. Moving any faster removes the bonus to the check.</p>
+			<p class="indent">Alternatively, you can spend a 3rd or higher level spell slot to draw on the powers of nature to hide yourself or a willing creature from view briefly. As a bonus action, you can magically make the creature and all of its equipment invisible for 1 minute.</p>
+		</description>
+		<sheet>
+			<description>You can spend 1 minute creating camouflage for a creature. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
+			Once camouflaged in this way, a creature can try to hide by pressing itself up against a solid surface, such as a tree or wall, that is at least as tall and wide as they are. The creature gains a +10 bonus to Stealth checks as long as they remain there without moving or taking actions. The bonus decreases to a +5 when the camouflaged creature moves at a pace of 5 feet per turn, and lost if it moves any faster.</description>
+		</sheet>
+	</element>
+	<element name="Vanish" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_VANISH">
+		<description>
+			<p>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</p>
+			<p class="indent">Additionally, you have advantage on checks made to cover up the tracks of any creature.</p>
+		</description>
+		<sheet>
+			<description>You can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail. Additionally, you have advantage on checks made to cover up the tracks of any creature.</description>
+		</sheet>
+	</element>
+	<element name="Feral Senses" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_FERAL_SENSES">
+		<description>
+			<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>
+			<p class="indent">You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</p>
+		</description>
+		<sheet>
+			<description>When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it. 
+			You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</description>
+		</sheet>
+	</element>
+	<element name="Foe Slayer" type="Class Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_CLASSFEATURE_RANGER_FOE_SLAYER">
+		<description>
+			<p>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make a creature that is included in the list of creatures or creature types you have examined with your Examine Enemy and Environment feature. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns, you can add {{wisdom:modifier}} to the attack roll or the damage roll of an attack you make against one of examined enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</description>
+		</sheet>
+	</element>
+
+	<element name="Hunter" type="Archetype" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_RANGER_HUNTER">
+		<supports>Ranger Archetype</supports>
+		<description>
+			<p>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter’s path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</p>
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_MULTIATTACK" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE" />
+		</description>
+		<sheet display="false">
+			<description>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_MULTIATTACK" level="11" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE" level="15" />
+		</rules>
+	</element>
+	<element name="Hunter’s Prey" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY">
+		<description>
+			<p>At 3rd level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Colossus Slayer.</em></strong> Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn.</p>
+			<p class="indent"><strong><em>Giant Killer.</em></strong> When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>
+			<p class="indent"><strong><em>Horde Breaker.</em></strong> Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Hunter’s Prey" supports="Hunters Pray" />
+		</rules>
+	</element>
+	<element name="Defensive Tactics" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS">
+		<description>
+			<p>At 7th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Escape the Horde.</em></strong> Opportunity attacks against you are made with disadvantage.</p>
+			<p class="indent"><strong><em>Multiattack Defense.</em></strong> When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+			<p class="indent"><strong><em>Steel Will.</em></strong> You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Defensive Tactics" supports="Defensive Tactics" />
+		</rules>
+	</element>
+	<element name="Multiattack" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_MULTIATTACK">
+		<description>
+			<p>At 11th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Volley.</em></strong> You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>
+			<p class="indent"><strong><em>Whirlwind Attack.</em></strong> You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Multiattack" supports="Multiattack" />
+		</rules>
+	</element>
+	<element name="Superior Hunter’s Defense" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE">
+		<description>
+			<p>At 15th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Evasion.</em></strong> You can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+			<p class="indent"><strong><em>Stand Against the Tide.</em></strong> When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</p>
+			<p class="indent"><strong><em>Uncanny Dodge.</em></strong> When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>		
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Superior Hunter’s Defense" supports="Superior Hunters Defense" />
+		</rules>
+	</element>
+
+	<element name="Colossus Slayer" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_COLOSSUS_SLAYER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hp maximum.</description>
+		</sheet>
+	</element>
+	<element name="Giant Killer" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_GIANT_KILLER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</description>
+		</sheet>
+	</element>
+	<element name="Horde Breaker" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_HUNTERS_PREY_HORDE_BREAKER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</description>
+		</sheet>
+	</element>
+	
+	<element name="Escape the Horde" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_ESCAPE_THE_HORDE">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>Opportunity attacks against you are made with disadvantage.</p>
+		</description>
+		<sheet>
+			<description>Opportunity attacks against you are made with disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="Multiattack Defense" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_MULTIATTACK_DEFENSE">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+		</description>
+		<sheet>
+			<description>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</description>
+		</sheet>
+	</element>
+	<element name="Steel Will" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_DEFENSIVE_TACTICS_STEEL_WILL">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	
+	<element name="Volley" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_MULTIATTACK_VOLLEY">
+		<supports>Multiattack</supports>
+		<description>
+			<p>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</description>
+		</sheet>
+	</element>
+	<element name="Whirlwind Attack" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_MULTIATTACK_WHIRLWIND_ATTACK">
+		<supports>Multiattack</supports>
+		<description>
+			<p>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</description>
+		</sheet>
+	</element>
+
+	<element name="Evasion" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_EVASION">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>You can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+		</sheet>
+	</element>
+	<element name="Stand Against the Tide" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_STAND_AGAINST_THE_TIDE">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a hostile creature misses you with a melee attack, you can force that creature to repeat the same attack against another creature of your choice.</description>
+		</sheet>
+	</element>
+	<element name="Uncanny Dodge" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SUPERIOR_HUNTERS_DEFENSE_UNCANNY_DODGE">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
+		</sheet>
+	</element>
+
+	<element name="Beast Master" type="Archetype" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_RANGER_BEAST_MASTER">
+		<supports>Ranger Archetype</supports>
+		<description>
+			<p>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</p>
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY" />
+			<div element="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS" />
+		</description>
+		<sheet display="false">
+			<description>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION" level="3" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING" level="7" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY" level="11" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS" level="15" />
+		</rules>
+	</element>
+	
+	<element name="Primal Companion" type="Class Feature" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION">
+		<description>
+			<p><i>3rd-level Beast Master feature, which replaces the Ranger's Companion feature</i></p>
+			<p>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its mystical origin.</p>
+			<p class="indent">In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge.</p>
+			<p class="indent">If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.</p>
+			<p class="indent">When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.</p>
+		</description>
+		<sheet>
+			<description>You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block — Beast of the Land, Beast of the Sea, or Beast of the Sky — which uses your proficiency bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. &#13;
+			In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take any action of its choice, not just Dodge. &#13;
+			If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored. &#13;
+			When you finish a long rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die.</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Primal Companion" supports="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND|ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA|ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY" />
+		</rules>
+	</element>
+
+	<element name="Ranger, LV03: Primal Companion" type="Item" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION">
+		<compendium display="false" />
+		<description>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<div class="reference">
+				<div element="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Optional Class Features</set>
+			<set name="keywords">Ranger, third level, 3rd level, Beast Master</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION" requirements="ID_WOTC_ARCHETYPE_RANGER_BEAST_MASTER"/>
+		</rules>
+	</element>
+	
+	<element name="Exceptional Training" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_EXCEPTIONAL_TRAINING">
+		<description>
+			<p>Beginning at 7th level, on any of your turns when your beast companion doesn’t attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn.</p>
+			<p class="indent">In addition, the beast’s attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>On any of your turns when your beast companion doesn’t attack, you can command the beast to take the Dash, Disengage, or Help action on its turn.
+			The beast’s attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</description>
+		</sheet>
+	</element>
+	<element name="Bestial Fury" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_BESTIAL_FURY">
+		<description>
+			<p>Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.</p>
+		</description>
+		<sheet>
+			<description>When you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.</description>
+		</sheet>
+	</element>
+	<element name="Share Spells" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPEFEATURE_RANGER_SHARE_SPELLS">
+		<description>
+			<p>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</description>
+		</sheet>
+	</element>
+
+
+	<element name="Beast of the Land" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND">
+		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">unaligned</set>
+			<set name="ac">13 + PB (natural armor)</set>
+			<set name="hp">5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)</set>
+			<set name="speed">40 ft., climb 40 ft.</set>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL></set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:speed:climb" value="40" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND" />
+		</rules>
+	</element>
+
+	<element name="Charge" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_CHARGE">
+		<description>
+			<p>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra ld6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra ld6 slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_PRIMAL_BOND">
+		<description>
+			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
+		</description>
+		<sheet display="false">
+			<description>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</description>
+		</sheet>
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Maul" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_LAND_MAUL>">
+		<description>
+			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d8+2+PB slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8+2+PB slashing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Beast of the Sea" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA">
+		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
+		<setters>
+			<set name="size">Medium</set>
+			<set name="type">Beast</set>
+			<set name="alignment">unaligned</set>
+			<set name="ac">13 + PB (natural armor)</set>
+			<set name="hp">5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)</set>
+			<set name="speed">5 ft., swim 60 ft.</set>
+			<set name="strength">14</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE></set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="5" bonus="base" />
+			<stat name="companion:speed:swim" value="60" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND" />
+		</rules>
+	</element>
+
+	<element name="Amphibious" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_AMPHIBIOUS">
+		<description>
+			<p>The beast can breathe both air and water.</p>
+		</description>
+		<sheet>
+			<description>The beast can breathe both air and water.</description>
+		</sheet>
+	</element>
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_PRIMAL_BOND">
+		<description>
+			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
+		</description>
+		<sheet display="false">
+			<description>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</description>
+		</sheet>
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Binding Strike" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SEA_BINDING_STRIKE>">
+		<description>
+			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d6+2+PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d6+2+PB piercing or bludgeoning damage (your choice), and the target is grappled (escape DC equals your spell save DC). Until this grapple ends, the beast can't use this attack on another target.</description>
+		</sheet>
+	</element>
+
+	<element name="Beast of the Sky" type="Companion" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY">
+		<requirements>ID_WOTC_TCOE_ITEM_OCF_RANGER_PRIMAL_COMPANION</requirements>
+		<setters>
+			<set name="size">Small</set>
+			<set name="type">Beast</set>
+			<set name="alignment">unaligned</set>
+			<set name="ac">13 + PB (natural armor)</set>
+			<set name="hp">4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)</set>
+			<set name="speed">10 ft., fly 60 ft.</set>
+			<set name="strength">6</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">11</set>
+			<set name="senses">darkvision 60 ft., passive Perception 12</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="challenge">—</set>
+			<set name="traits">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY, ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND</set>
+			<set name="actions">ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED></set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:hp:max" value="4" bonus="base" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="level:ranger" />
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:proficiency" value="proficiency" bonus="base" />
+			<stat name="companion:proficiency" value="-2" bonus="base companion PB removal"/>
+			<grant type="Companion Trait" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND" />
+		</rules>
+	</element>
+
+	<element name="Flyby" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_FLYBY">
+		<description>
+			<p>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>
+		</description>
+		<sheet>
+			<description>The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach.</description>
+		</sheet>
+	</element>
+	<element name="Primal Bond" type="Companion Trait" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_PRIMAL_BOND">
+		<description>
+			<p>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</p>
+		</description>
+		<sheet display="false">
+			<description>You can add your proficiency bonus to any ability check or saving throw that the beast makes.</description>
+		</sheet>
+		<rules>
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:animal handling:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:investigation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:medicine:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:nature:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:religion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:sleight of hand:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:strength:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:intelligence:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Shred" type="Companion Action" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_RANGER_PRIMAL_COMPANION_BEAST_OF_THE_SKY_SHRED>">
+		<description>
+			<p><i>Melee Weapon Attack:</i> your spell attack modifier to hit, reach 5 ft., one target. <i>Hit:</i> 1d4+3+PB slashing damage</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d4+3+PB slashing damage</description>
+		</sheet>
+	</element>
+</elements>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Alchemist’s Frost (flask)" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_GEAR_ALCHEMISTS_FROST">
+		<description>
+			<p>This sticky, adhesive fluid freezes its surroundings when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's frost as an improvised weapon. On a hit, the target takes 1d8 cold damage and has disadvantage on attack rolls while frozen this way. A creature can end this damage by using its action to make a DC 10 Dexterity check to shake the frost off of themselves.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	
+</elements>

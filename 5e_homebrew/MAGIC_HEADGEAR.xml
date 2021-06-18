@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Crown of Cogs and Gears" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_HELM_OF_COGS_AND_GEARS">
+		<description>
+			<p>While wearing this crown, you can use an action to cast the <i>command</i> spell from it at will, but the spell can only target Construct type creatures.</p>
+		</description>
+		<setters>
+			<set name="keywords">command, construct, control</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lbs.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	
+	<element name="The Mask of Many Faces" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_THE_MASK_OF_MANY_FACES">
+		<description>
+			<p>While wearing this white, ceramic mask, you can use an action to steal the face of creature that has one, permanently removing it from them, making them appear as if there was only a blur on their face, even though they can still talk, eat, etc. If you have at least one face in the mask, you can cast the <em>Disguise Self</em> spell with it at will, to look like the creature whose face you stole as you remember them.</p>
+		</description>
+		<setters>
+			<set name="keywords">face, many, mask</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Helmet of Debilitation" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_HELMET_OF_DEBILITATION">
+		<description>
+			<p>While attuned to this helmet, your immobilizing capabilities are enhanced. While you are restricting the movement or actions of a creature, damage rolls made against them from melee and ranged attacks deal maximum damage until the end of your next turn. A creature can only be weakened once per day this way.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	
+	<element name="Gas Mask" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GAS_MASK">
+		<description>
+			<p>This bulky mask is made of a face-shaped sheet of metal, two large circular glass lenses, and two tubes with filters inside. It seals perfectly, any gas entering is purified and becomes breathable.</p>
+			<p class="indend">While wearing the mask you cannot be poisoned by airborne poisons, spores and the like, but you automatically fail Wisdom (Perception) checks that require smelling.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+</elements>

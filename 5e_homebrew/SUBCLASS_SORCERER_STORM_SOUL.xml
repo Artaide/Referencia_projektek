@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Revised Storm Sorcery" type="Archetype" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_CIRCLE_SPORES">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being. </p>
+			<p class="indent">Storm sorcerers a re invaluable members of a ship's crew. Their magic a llows them to exert control over wind and weathe r in the ir immediate a rea. The ir abilities a lso prove useful in repelling attacks by s ahuagin, pirates, and other waterborne threats.</p>
+			
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SPEAKER" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_TEMPESTUOUS_MAGIC" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_HEART_OF_THE_STORM" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_TURBULENT_MOBILITY" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_STORMS_FURY" />
+			<div element="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SOUL" />
+		</description>
+		<sheet display="false">
+			<description>Storm Sorcerers are the bearers of lightning and thunder.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_STORM_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SPEAKER" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_TEMPESTUOUS_MAGIC" level="1" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_HEART_OF_THE_STORM" level="6" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_TURBULENT_MOBILITY" level="6" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_STORMS_FURY" level="14" />
+			<grant type="Archetype Feature" id="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SOUL" level="18" />
+		</rules>
+	</element>
+	<element name="Storm Sorcery Spells" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_STORM_SPELLS">
+		<description>
+			<p>Your connection to elemental air grants you powers with which you can bring down the wrath of storms on your foes. At 1st level, you learn the Shocking Grasp cantrip, which you can cast at a range of 30 feet if you spend 1 sorcery point to do so, along with the Ray of Frost and the Shape Water cantrips. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Storm Sorcery Spells table.</p>
+			<p class="indent">Once you gain access to one of these spells, you always have it prepared, and it doesn't count against your number of spells known. If you gain access to a spell that doesn't appear on the sorcerer spell list, the spell is nonetheless a sorcerer spell for you.</p>
+			<h5>Storm Spells</h5>
+			<table>
+				<thead><tr><td>Sorcerer Level</td><td>Spells</td></tr></thead>
+				<tr><td>3rd</td><td><em>featherfall, shatter</em></td></tr>
+				<tr><td>5th</td><td><em>lightning bolt, call lightning</em></td></tr>
+				<tr><td>7th</td><td><em>elemental bane, control water</em></td></tr>
+				<tr><td>9th</td><td><em>control winds, maelstrom</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>You gain access to specific spells as you level up.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="1" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="1" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" level="1" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHATTER" level="3" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALL_LIGHTNING" level="5" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ELEMENTAL_BANE" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="7" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" spellcasting="Sorcerer" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAELSTROM" level="9" spellcasting="Sorcerer" prepared="true" />
+		</rules>
+	</element>
+	<element name="Wind Speaker" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SPEAKER">
+		<description>
+			<p>The arcane magic you command is influenced by ancient elemental power. You can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.</p>
+			<p class="indent">Additionally when you cast a spell that requires a verbal component, you simply breathing suffices.</p>
+		</description>
+		<sheet>
+			<description>You know the Primordial language, and speak and understand all four of its dialects. Also, you can perform the verbal components of spells with breathing instead of speaking a magic word.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" level="1" />
+		</rules>
+	</element>
+	<element name="Tempestuous Magic" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_TEMPESTUOUS_MAGIC">
+		<description>
+			<p>Starting at 1st level, on a bonus action you can spend a sorcery point to cause whirling gusts of elemental air to briefly surround you, allowing you to manipulate the air around you to different effects:
+			</p>
+			<ul>
+				<li><b>Brief Flight.</b> You can fly up to 30 feet and impose disadvantage on opportunity attacks made against you this turn. To do this, you also must forgo your movement for the turn.</li>
+				<li><b>Arial Disengage.</b> You can fly straight up, to a maximum of 15 feet above where you were, and stay there until the start of your next turn or until you decide to descend. You fall slowly from the position you flew to using this feature if you are forcibly knocked or pulled downwards. When you willingly descend, spend 10 feet of your movement to get down if you don't have flying speed.</li>
+				<li><b>Powerful Gust.</b> You can cause the surrounding whirling air to concentrate at your hand. You can release the concentrated air as a burst of strong wind in a 20 feet long straight line. The first creature you hit with the burst must succeed on a Strength saving throw, getting knocked away 20 feet on a failed save or half as much on a succesful one.</li>
+				<li><b>Shielding Winds.</b> You can completely cover yourself with whirling wind, imposing disadvantage on the next attack made against you before the start of your next turn.</li>
+				<li><b>Elevate.</b> You can lift objects and willing creatures that are up to 40 feet away and are not heavier than (15 + twice your proficiency modifier) lbs * your Charisma modifier in the air, up to 10 feet from the ground.</li>
+			</ul>
+			<p>You get bonuses to some of these effects on later levels.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action on your turn, you can spend a sorcery point to either gain a flying speed of 30 feet and not provoke opportunity attacks; fly up 20 feet in the air and stay there until the end of your next turn; release a strong burst of wind that knocks an enemy away; cover yourself in a dome of wind to protect you from attacks; levitate objects.</description>
+		</sheet>
+	</element>
+	<element name="Heart of the Storm" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_HEART_OF_THE_STORM">
+		<description>
+			<p>At 6th level, you gain resistance to cold, lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals cold, lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 30 feet of you to take cold, lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.</p>
+			<p class="indent">Any time you cast a spell that deals cold, lightning or thunder damage, add your Charisma modifier to the damage dealt.</p>
+			<p class="indent">When concentrating on a spell that controls water, wind or lightning any form, add you Charisma modifier to Constitution saving throws made to maintain concentration.</p>
+		</description>
+		<sheet>
+			<description>You gain resistance to cold, lightning and thunder damage, and you deal more damage of these types from spells. Additionally you add you Charisma modifier to concentration rolls.</description>
+		</sheet>
+	</element>
+	<element name="Turbulent Mobility" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_TURBULENT_MOBILITY">
+		<description>
+			<p>At 6th level you gain flight speed equal to half your walking speed. To be able to fly, you can't wear medium or heavy armor.</p>
+			<p>You can use Brief Flight with forgoing only half your movement, and you provoke no opportunity attacks.</p>
+		</description>
+		<sheet>
+			<description>Gain flight and reduce the movement cost of Brief Flight by half, also making it not provoke opportunity attacks.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly" value="50" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+		</rules>
+	</element>
+	<element name="Storm's Fury" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_STORMS_FURY">
+		<description>
+			<p>At 14th level, you gain the ability to punish enemies that focus their attacks on you. Choose a creature up to 30 feet away, you create a magical link between the two of you. Whenever the creature attacks you, you can use your reaction to deal 1d10 + your Charisma modifier lightning damage to it. If the enemy hits you with a critical hit, you can spend a sorcery point to deal an extra 1d10 lightning damage.</p>
+			<p class="indent">When using Powerful Gust, you can spend 2 sorcery points to impose disadvantage on the Strength saving throw.</p>
+		</description>
+		<sheet>
+			<description>You can deal 1d10 + your Charisma modifier lightning damage to your attackers as a reaction, and you can enhance Powerful Gust with sorcery points to impose disadvantage on its Strength saving throw.</description>
+		</sheet>
+	</element>
+	
+	<element name="Wind Soul" type="Archetype Feature" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ARCHETYPE_FEATURE_WIND_SOUL">
+		<description>
+		<p>At 18th level, you gain immunity to cold, lightning and thunder damage.</p>
+		<p class="indent">You also gain a magical flying speed of 60 feet. You can fly while wearing medium or heavy armor. As an action, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain a magical flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can't do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>Immunity to cold, lightning and thunder damage. Also gain more flight and grant flight to 3 + your Charisma modifier number of creatures.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly" value="60" bonus="base" />
+		</rules>
+	</element>
+</elements>

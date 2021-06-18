@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+<element name="Dire Wolf" type="Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_ITEM_VEHICLE_MOUNT">
+		<description>
+			<p>The dire wolf mount has the stats of a dire wolf from the Monster Manual.</p>
+			<p><strong><em>Carrying Capacity.</em></strong> 255 lbs.</p>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">-</set>
+			<set name="weight" lb="0">800 lb.</set>
+			<set name="type">Mount</set>
+		</setters>
+
+	</element> 
+	
+</elements>

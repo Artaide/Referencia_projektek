@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Vampiric Fungal Growth" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_VAMPIRIC_FUNGAL_GROWTH">
+    <supports>Druid</supports>
+    <description>
+      <p>You point at a creature within 10 feet of you. A head-sized clump of all kinds of fungi appear on the creature on a point of its body you choose, and immediately deal 1d4 + your Spellcasting Ability Modifier necrotic damage and the same amount of poison damage to it, and also at the start of each of your turns.</p>
+      <p class="indent">Each time the clump deals damage, you can then choose to either heal yourself or increase the clump's Hit Points by the amount of necrotic damage dealt.</p>
+	  <p class ="indent">The clump starts out with 15 Hit Points and an AC of 12. Half of the damage dealt (rounded down) to the clump is dealt to its host instead. When the clump's drops to 0 Hit Point, or its host dies, it vanishes in a puff on spores.</p>
+    </description>
+    <setters>
+	  <set name="keywords">fungal, growth, mushroom, vampiric</set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Until Dispelled</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">A handful of dried fungus, which the spell consumes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  
+  <element name="Paralyzing Mycelium" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_PARALYZING_MYCELIUM">
+	<supports>Druid</supports>
+	<description>
+	<p>You choose a creature in range, forcing it to succeed on a Constitution saving throw against your Spell Save DC, or become paralyzed for 1 hour by white mycelium growing all over it.</p>
+	<p class="indent">The creature can try to break free on the end of each of its turns by making the same saving throw, ending the spell, but gaining a point of exhaustion afterwards on a success.</p>
+	</description>
+	<setters>
+	  <set name="keywords">mushroom, mycelium, paralyzing</set>
+	  <set name="level">2</set>
+	  <set name="school">Necromancy</set>
+	  <set name="time">1 action</set>
+	  <set name="duration">Until Dispelled</set>
+	  <set name="range">10 feet</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">A poisonous mushroom covered in spider-web, which the spell consumes</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Incinerate Fungi" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_INCINERATE_FUNGI">
+	<supports>Druid</supports>
+	<description>
+	  <p>All fungal mass in the range of the spell and other than the ones on your person burst out in flames, dealing 1d6 fire damage to whatever they touch that isn't fireproof. Any and all activities these pieces of fungi were carrying out immediately end, including spells that require them.</p>
+	</description>
+	<setters>
+	  <set name="keywords">fungi, incinerate, mushroom</set>
+	  <set name="level">3</set>
+	  <set name="school">Evocation</set>
+	  <set name="time">1 action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">A handful of charred mushrooms that the spell consumes</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Grow Hallucinogens" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_VAMPIRIC_GROW_HALLUCINOGENS">
+    <supports>Druid</supports>
+    <description>
+      <p>You plant magically created spores from your fingertips into 10 cubic inches of fertilized soil. Over the course of 1 week under favorable conditions, a clump of mushrooms or a single tall mushroom fully grows, and has hallucinogenic properties.</p>
+      <p class="indent">You can determine the effects of the mushroom when harvesting it. When you do, roll 1d6. On a 1-2, the fungus has strong depressant effects for 2d4 hours; on a 3-4, it lightly hallucinogenic effects for 1d4 hours; on a 5-6, it is stronly hallucinogenic, and the effects last 2d4 hours.</p>
+    </description>
+    <setters>
+	  <set name="keywords">mushroom, hallucinogenic</set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 week</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">10 cubic inches of soil with dead material originating from plants or animals in it, or otherwise fertilized soil</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  
+  
+  <element name="Improved Witch Bolt" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_IMPROVED_WITCH_BOLT">
+    <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your bonus action to deal 1d12 lightning damage to the target automatically. After a creature has been damaged by this spell at least 5 times, every time it is damaged by this spell, it must succeed on a Contitution saving throw or become stunned until the end of its next turn.</p>
+	  <p class="indent">Using your bonus action to automatically deal damage counts as casting a spell.</p>
+	  <p class="indent">The spell ends if you use your bonus action to do anything else other than maintaining it. The spell also ends if the target gets outside the spell’s range or if it has total cover from you.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, both the initial damage and the damage on subsequent turns increases by 1d12 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords">bolt, lightning, witch</set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a twig from a tree that has been struck by lightning</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Improved True Strike" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_IMPROVED_TRUE_STRIKE">
+    <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target’s defenses. On your subsequent turns, you gain advantage on your first attack roll against the target, provided that this spell hasn’t ended.</p>
+    </description>
+    <setters>
+      <set name="keywords">strike, true</set>
+      <set name="level">0</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Improved Find Traps" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_IMPROVED_FIND_TRAPS">
+    <supports>Cleric, Druid, Ranger</supports>
+    <description>
+      <p>You sense the presence of any trap within range, and you know their exact location for the duration of the spell. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was either specifically intended as such by its creator, or is a natural hazard, including weak floors, walls that would easily collapse, etc. The spell can also sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap.</p>
+      <p class="indent">You also learn the general nature of the danger posed by a trap you sense.</p>
+    </description>
+    <setters>
+      <set name="keywords">find, traps</set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous, up to 1 hour</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  
+  <element name="Improved Crown of Madness" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_IMPROVED_CROWN_OF_MADNESS">
+    <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>One creature of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes. The charmed target must use its action to make an attack against a creature other than itself that you mentally choose, and you can command the charmed target to move towards the other creature. The target loses their action if you choose no creature or if none it couldn't reach any on its turn. On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords">crown, madness</set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Artificial Hivemind" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ARTIFICIAL_HIVEMIND">
+	<supports>Bard, Warlock, Wizard</supports>
+	<description>
+	  <p>Choose a number of creatures equal up to your proficiency modifier. These creatures' minds connect to a small, isolated mental network, along with yours. A creature exits this network if it moves more than 120 feet away from you.</p>
+	  <p class="indent">While this spell is active, all connected creatures can communicate telepathically. Damaging a creature with a melee or ranged attack grants advantage on the first attack made by another connected creature against the same target.</p>
+	  <p class="indent">Until this spell ends, you and all connected creatures can individually grant advantage to a single Wisdom, Intelligence or Charisma saving throw made by another creature within the network.</p>
+	</description>
+	<setters>
+	  <set name="keywords">artificial, hivemind</set>
+      <set name="level">3</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a 5 inch long white string</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+	</setters>
+  </element>
+  
+  <element name="Spell Shield" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_SPELL_SHIELD">
+	<supports>Artificer, Bard, Sorcerer, Warlock, Wizard</supports>
+	<description>
+	  <p>When you would take damage from a spell, you can use your reaction to raise a violet colored, translucent sphere around you. The spell shield has Hit Points equal to 10 + your spellcasting ability modifier. The shield absorbs all damage you would have taken, even if that would exceed its Hit Point maximum, unless the damage is at least double of its current Hit Points, in which case, the shield only absorbs as much damage as many Hit Points it has left, and the remaining damage is dealt to you.</p>
+	  <p class="indent"><b>At Higher Levels.</b> Casting Spell Shield using a higher level spell slot increases the shield's Hit Points by 5 for each additional level above 3rd.</p>
+	</description>
+	<setters>
+	  <set name="keywords">shield, spell</set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Arcane Grenade" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ARCANE_GRENADE">
+	<supports>Artificer, Wizard</supports>
+	<description>
+	  <p>You toss a purple ball of arcane energy the size of you fist into an unoccupied space or at a creature within range. If you choose to throw it at a creature, make a ranged spell attack. On a hit, the grenade explodes on impact, dealing force damage to your target, and decreased damage to each creature in its range around it. If you choose to throw it in an unoccupied space within range instead, the explosion will be delayed until the start of your next turn. The delay also happens if you miss with the ranged spell attack, in which case the grenade stays in the target's space. Creatures that are of size Large of bigger, take damage only once, on the side that is closest towars to center of explosion.</p>
+	  <p class="indent">Roll 1d4 and muliply that by 5, that is the amount of force damage to creatures up to 5 feet from the center of explosion take. For creatures farther away from the center, subtract your roll as many times from the damage as the distance in feet between them and the center divided by 5, rounded down, until creatures are in range to take damage.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each spell level above 4th, then number by which you multiply your initial roll increases by 1.</p>
+	</description>
+	<setters>
+	  <set name="keywords">arcane, grenade</set>
+      <set name="level">4</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">40 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Arcane Rain" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ARCANE_RAIN">
+	<supports>Sorcerer, Wizard</supports>
+	<description>
+	  <p>You create a cloud imbued with arcane energy 60 feet in the air above the ground in range. The spell fails if there is no room for the cloud, such as inside a house or in an underground tunnel. The cloud covers a 10-foot-radius circle on the ground, onto which drops of magical rain pour.</p>
+	  <p class="indent">The rain falls with extraordinary force, making it hard to move while under the cloud. Creatures that enter the area or start their turn in it, take 2d4 force damage and their Speed is reduced by half while in there.</p>
+	  <p class="indent"><b>At Higher Levels.</b> Casting this spell at higher levels increases the force damage the rain deals by 1d4 for each spell slot above 2nd.</p>
+	</description>
+	<setters>
+	  <set name="keywords">arcane, rain</set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Absorb Magic" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ABSORB_MAGIC">
+	<supports>Artificer, Sorcerer, Wizard</supports>
+	<description>
+	  <p>You cover yourself in arcane energy. The next time you are hit with a harmful spell's effects before this spell ends, the arcane energy absorbs the effects, concentrating it into your body as raw magic. You take half damage if the spell damages you, and you gain advantage on your next saving throw if it forces you to make one and you succeed. This spell ends thereafter.</p>
+	  <p class="indent">When this spell absorbs the arcane energy of another, you also regain a spell slot of the lowest level that you have spent since your last long rest.</p>
+	  <p class="indent"><b>At Higher Levels.</b> Casting this spell using a 6th or higher level spell slot lets you decide what level spell slot you regain. The regained slot can only be of lower level the one you spent casting this spell.</p>
+	</description>
+	<setters>
+	  <set name="keywords">absorb, magic, shield</set>
+      <set name="level">5</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute or until dispelled</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Astral Echo" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ASTRAL_ECHO">
+	<supports>Artificer, Wizard</supports>
+	<description>
+	  <p>You summon an astral projection of yourself on the same space you occupy. The space doesn't count as difficult terrain for you or your echo, which counts as a creature, and disappears at the end of your next turn.</p>
+	  <p class="indent">As part of the action when you cast this spell, you must make an attack or cast another spell, which can be of 1st level or higher. At the start of your next turn, the projection repeats the same action you did, the same way, except for the outcome on dice rolls. You can't cast this spell more than once on the same turn, and the initial casting doesn't count towards the actions the projection can repeat.</p>
+	</description>
+	<setters>
+	  <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Mirror Prison" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_MIRROR_PRISON">
+	<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+	<description>
+	  <p>Choose a creature within range that you can see. You make an encasing motion with your hands while looking at you target. That creature must succeed on a Wisdom saving throw or hallucinate flat, square mirrors encase it on all sides in the shape of a cube. All of these mirror wall have an AC of 10 and 1 Hit Point.</p>
+	  <p class="indent">The creature can make a Wisdom saving throw at the end of its turns to end the spell early. While the creature is hallucinating, if it doesn't roll a saving throw, it can only take the attack action against its own reflection on one side of the cage. If the attack hits, the creature takes 1d6 psychic damage, and breaks that mirror. The creature ends the spell early if it breaks all 6 sides.</p>
+	</description>
+	<setters>
+	  <set name="keywords">cage, mirror, prison, reflection</set>
+      <set name="level">4</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Until dispelled</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Bloody Grasp" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_BLOODY_GRASP">
+	<supports>Warlock</supports>
+	<description>
+	  <p>As an action, you create a red, ghostly hand in the air in range. Spectral heavy drops of blood drip from the hand, that dissipate when hitting a surface. While the spell is active, as a bonus action on your turn, you can command it to move up to 20 feet in a direction and possibly attack, using your spellcasting ability modifier, and dealing 1d8 necrotic damage on a hit.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each 2 spell levels above 2nd, the hand can make an extra attack, dealing an additional 1d8 + 5 necrotic damage on hit.</p>
+	</description>
+	<setters>
+	  <set name="keywords">blood, hand</set>
+	  <set name="level">1</set>
+	  <set name="school">Necromancy</set>
+	  <set name="time">2 action, bonus actions after</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Armor of The Arcane Knight" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ARMOR_OF_THE_ARCANE_KNIGHT">
+	<supports>Eldritch Knight, Paladin, Warlock, Wizard</supports>
+	<description>
+	  <p>As a bonus action, you conjure blue or purple glass-like pieces of armor around yourself. While this spell is active, you gain a +2 bonus to your AC and gain proficiency in Constitution saving throws if you don't have it already.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each 2 spell levels above 3rd, the bonus to your AC increases by 1.</p>
+	</description>
+	<setters>
+	  <set name="keywords">arcane, armor, knight</set>
+	  <set name="level">3</set>
+	  <set name="school">Abjuration</set>
+	  <set name="time">1 Bonus Action</set>
+	  <set name="duration">1 minute</set>
+	  <set name="range">Self</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Sword of The Arcane Knight" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_ARMOR_OF_THE_ARCANE_KNIGHT">
+	<supports>Eldritch Knight, Paladin, Warlock, Wizard</supports>
+	<description>
+	  <p>As a bonus action, you conjure a blue or purple, glass-like two-handed sword that deals 2d8 force damage on hit. While this spell is active, you have proficiency with this sword, and you can attack with it when you take the Attack Action. When you do so, you can use your spellcasting ability modifier instead of Strength or for attack and damage rolls made with it, and you have a +1 bonus to both.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each 2 spell levels above 2nd, the bonus to attack and damage rolls increases by 1.</p>
+	</description>
+	<setters>
+	  <set name="keywords">arcane, knight, sword</set>
+	  <set name="level">2</set>
+	  <set name="school">Abjuration</set>
+	  <set name="time">1 Bonus Action</set>
+	  <set name="duration">1 minute</set>
+	  <set name="range">Self</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Create Breakfast and Coffee" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_CREATE_BREKFAST_AND_COFFEE">
+	<supports>Artificer, Cleric, Druid, Wizard</supports>
+	<description>
+	  <p>You conjure a fresh plate of breakfast of your choice of foods enough for 1 person, and a cup of steaming coffee to go along with it, plate in one hand, cup in the other. If you don't have free hands to hold the plate or the cup when casting this spell, they appear on the ground or a flat horizontal surface up to 5 feet from you. The plate and the cup disappear after you finish eating and drinking, and the spell then ends. If there is no flat surface and your hands are full, the spell fails.</p>
+	</description>
+	<setters>
+	  <set name="keywords">breakfast, coffee</set>
+	  <set name="level">1</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Until dispelled</set>
+	  <set name="range">Self</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">true</set>
+	</setters>
+  </element>
+  
+  <element name="Haircut" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_CREATE_HAIRCUT">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You touch a willing creatures head, and shape their hair and facial hair into any look. The shapechange includes length, density, volume, form and color.</p>
+	</description>
+	<setters>
+	  <set name="keywords">haircut</set>
+	  <set name="level">0</set>
+	  <set name="school">Transmutation</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">Touch</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Read Memory" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_READ_MEMORY">
+	<supports>Bard, Warlock, Wizard</supports>
+	<description>
+	  <p>Choose a creature within 30 feet of you, whose memories you want to read. If that creature is unwilling, they have to succeed on a Wisdom saving throw to resist the spell. You see their memories up to 1 week ago as visions, which are as clear as they can remember them. Each different event you wish to see takes 1 minute to go over. This spell doesn't help creatures remember events that they have forgotten happened, and it doesn't clear any image they don't remember clearly.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each spell level above 2nd, the time limit of which the spell can go back increases by a week. The only exception from this is using a 9th spell slot, which lets you see every memory of a creature.</p>
+	</description>
+	<setters>
+	  <set name="keywords">memory</set>
+	  <set name="level">2</set>
+	  <set name="school">Divination</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Concentration, 1 minute per memory</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">true</set>
+	</setters>
+  </element>
+  
+  <element name="Phantom Limb" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_PHANTOM_LIMB">
+	<supports>Sorcerer, Warlock, Wizard</supports>
+	<description>
+	  <p>You create an extra translucent, spectral limb somewhere on your body. This limb can do everything its regular counterpart can, for example a spectral arm can wield a weapon, tool or shield, lift and carry items, make unarmed attacks, etc., or a leg can kick, step and you can balance yourself on it. A phantom limb is as strong, dexterous and precise as if it was a regular one.</p>
+	  <p class="indent">While this spell is active, you either gain 1 additional action or bonus action on your turn, for which you can only use the phantom limb to perform, or you can make an additional attack with the limb when you take the attack action.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each spell level above 3rd, you can manifest 1 additional phantom limb, but the number of actions or bonus actions on your turn don't increase, only the number of attacks you can make and the weight you can lift, drag or carry.</p>
+	</description>
+	<setters>
+	  <set name="keywords">arm, leg, limb, phantom</set>
+	  <set name="level">3</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Concentration, up to 1 hour</set>
+	  <set name="range">Self</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Feathers of Bronze" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_FEATHERS_OF_BRONZE">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You create a flock of spectral, light brown feathers around you. While the feathers surround you or an allied creature, they grant a +2 bonus to AC. As a bonus action on your turn, you can move the feathers up to 30 feet away from their current position, but not farther than 120 feet from you. </p>
+	  <p class="indent">Before you move the feathers, choose whether they will protectively surround a willing creature or swirl around and deal damage in a 10-foot-diameter sphere as they travel.</p>
+	  <p class="indent">If you decide to attack with the feathers, choose a creature within the range of the spell. The feathers quickly make their way towards the target, which has to succeed on a Dexterity saving throw or take 3d6 slashing damage as the feathers surround it. If any hostile creatures are no more than 5 feet from the target of the spell, they also must succeed on a Dexterity saving throw, or take half as much damage as the original target.</p>
+	  <p class="indent">While the feathers surround and are attacking an enemy creature, at the start of your turn, affected creatures repeat the saving throw and you repeat dealing damage.</p>
+	</description>
+	<setters>
+	  <set name="keywords">bronze, feathers</set>
+	  <set name="level">3</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Concentration, up to 1 minute</set>
+	  <set name="range">120 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a hanful of bronze scraps</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Golden Wings" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_GOLDEN_WINGS">
+	<supports>Wizard</supports>
+	<description>
+	  <p>Golden wings sprout from a creature of your choice within range that you can see, unless they already have wings, in which case those ones magically become golden. As a bonus on their turn, the creature can slam the wings together to shoot a 15-foot cone of fire in front of them. Each creature in the area of the cone must make a Dexterity saving throw against your spell save DC, taking 2d6 fire damage on a failed save or half as much on a success.</p>
+	  <p class="indent"><b>At Higher Levels.</b> For each spell level above 3rd, the fire damage increases by 1d6.</p>
+	</description>
+	<setters>
+	  <set name="level">3</set>
+	  <set name="keywords">golden, wings</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Concentration, up to 3 rounds</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">2 gold coins</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Stunning Screech" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_STUNNING_SCREECH">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You let out a sharp, loud screech. Choose up to 3 creatures in range that can hear you, who must succeed on a Wisdom saving throw, or become stunned until the end of your next turn.</p>
+	</description>
+	<setters>
+	  <set name="keywords">screech, stun, stunning</set>
+	  <set name="level">4</set>
+	  <set name="school">Enchantment</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">60 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">false</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Walking Flock of Flames" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_FLOCK_OF_FLAMES">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You create a bunch of fiery feathers on the ground in a 10 feet by 10 feet square, creating a grid of 4, 5 feet by 5 feet quarters. When a hostile creature enters or starts their turn in the area, they take 3d4 fire damage and their walking speed decreases by 5 feet until the start of its next turn, after which the feathers disappear from where they stood.</p>
+	  <p class="indent">As a bonus action on your turn, if any of the feathers occupy at least a 5-foot square and are not on a creatures legs, you can move the flock up to 20 feet away horizontally in any direction.</p>
+	  <p class="indent"><b>At Higher Levels.</b> Casting this spell at a higher level increases the damage of the flaming feathers by 2d4 and the amount they can travel by 5 feet for each spell level above 2nd.</p>
+	</description>
+	<setters>
+	  <set name="keywords">flames, flock, walking</set>
+	  <set name="level">2</set>
+	  <set name="school">Evocation</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Concentration, up to 1 minute</set>
+	  <set name="range">60 feet</set>
+	  <set name="hasVerbalComponent">true</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a handful of feathers and gunpowder that the spell consumes</set>
+	  <set name="isConcentration">true</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Fiery Stash" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_FIERY_STASH">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You draw a 5-foot-diameter circle of runes on a horizontal surface with magical chalk or chalk powder. You can place up to 500 pounds of non-living material on the circle, which become engulfed in flames as the spell finishes, relocating them into a harmless pocket dimension.</p>
+	  <p class="indent">When casting the spell, you can choose to take any items or materials out of the stash, instead of storing things away.</p>
+	</description>
+	<setters>
+	  <set name="keywords">fiery, stash</set>
+	  <set name="level">4</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 minute</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">Touch</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">5 gp worth of magical chalk which the spell consumes</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">true</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Blast of Feathers" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_BLAST_OF_FEATHERS">
+	<supports>Wizard</supports>
+	<description>
+	  <p>You throw 4 sharp, metallic feathers at a creature. Make a ranged spell attack against the target. On a hit, you deal 2d4 piercing damage to it, and 2 feathers stick into its body. The next time the creature takes damage from a weapon attack or spell attack, the 2 feathers explode, dealing 2d4 piercing damage to it.</p>
+	  <p class="indent">This spell’s initial and blast damage both increase by 2d4 when you reach 5th level (4d4 + 4d4), 11th level (6d4 + 6d4), and 17th level (8d4 + 8d4)</p>
+	</description>
+	<setters>
+	  <set name="keywords">blast, feathers</set>
+	  <set name="level">0</set>
+	  <set name="school">Conjuration</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">false</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Weedkief's Burning Tempest" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_BURNING_TEMPEST">
+	<supports>Wizard</supports>
+	<description>
+	  <p>A creature of your choice in range spins in place with their arms extended, causing a 20 feet tall, circular pillar of fast-moving fire to surround them starting from the ground, and if they are willing, they are quickly lifted up to 20 feet in the air until the start of their next turn, when they slowly drift back down.</p>
+	  <p class="indent">If the creature is a non-willing one, they must succeed on a Strength saving throw or collide into the wall, taking 8d6 fire damage, and be lifted 20 feet in the air until the start of your next turn, when they plummet back down.</p>
+	  <p class="indent">All creatures on the outside of the pillar that are no more than 5 feet from it must succeed on a Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much on a successful one.</p>
+	</description>
+	<setters>
+	  <set name="keywords">burning, tempest</set>
+	  <set name="level">5</set>
+	  <set name="school">Evocation</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a pinch of gunpowder</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+  <element name="Serpent of Lightning" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_SERPENT_OF_LIGHTNING">
+	<supports>Wizard</supports>
+	<description>
+	  <p>Choose up to 4 creatures in range. A singular, thick bolt of lightning arcs from your hand to one of them, and bounces onto the other 3, creating a sustained arc of electricity between them. Make a ranged spell attack against the creature. On a hit, the target takes 5d6 lightning damage. The other 3 creatures must make a Dexterity saving throw, taking the same amount of damage on a fail, or half as much on a success. Creatures in metal armor have disadvantage on the saving throw.</p>
+	  <p class="indent">While a creature is no farther than 30 feet from at least one other creature that is connected to the sustained arc, it takes 1d12 lightning damage at the start of their turn, dealing half as much to the other ones.</p>
+	</description>
+	<setters>
+	  <set name="keywords">burning, tempest</set>
+	  <set name="level">5</set>
+	  <set name="school">Evocation</set>
+	  <set name="time">1 Action</set>
+	  <set name="duration">Instantaneous</set>
+	  <set name="range">30 feet</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a pinch of gunpowder</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
+</elements>

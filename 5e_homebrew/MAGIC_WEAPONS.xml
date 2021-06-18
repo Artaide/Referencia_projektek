@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Thunderous Trident" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_THUNDEROUS_TRIDENT">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. Its damage and base properties are that of a mundane trident.</p>
+			<p>This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">This weapon has 3 charges, and regains 1d4-1 (minimum of 1) charges at dawn. When you throw this weapon at a creature or surface and successfully hit, you can spend a charge as a bonus action to cast <i>thunderstep</i> next to the trident. Your spellcasting ability for <i>thunderstep</i>, when cast through the trident, is Charisma.</p>
+		</description>
+		<setters>
+			<set name="keywords">teleport, thunder, thunderstep</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Trident</set>
+			<set name="name-format">Thunderous Trident</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	
+	<element name="The Backstabber" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_THE_BACKSTABBER">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this weapon. Its base properties are that of a mundane dagger, but its base damage is 1d6 piercing.</p>
+			<p>This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">You have advantage on attack rolls made with this weapon against a creature that you're behind of. When you attack a creature from behind with this dagger and hit, you deal increase the dagger's damage by 1d6 piecring damage and the attack is a critical hit. You can also make an extra attack when you take the attack action using this weapon.</p>
+		</description>
+		<setters>
+			<set name="keywords">backstabber, dagger</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Dagger</set>
+			<set name="name-format">The Backstabber</set>
+		</setters>
+	</element>
+	
+	<element name="Goredrinker" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_GOREDRINKER">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its base properties are that of a mundane longsword.</p>
+			<p>This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">When you successfully hit a creature with this weapon, you apply a stack bleeding wound. For each stack applied to a creature, they lose 1d6 Hit Points, for up to a maximum of 4 stacks per creature.</p>
+		</description>
+		<setters>
+			<set name="keywords">bleed, stack</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Longsword</set>
+			<set name="name-format">Goredrinker</set>
+		</setters>
+	</element>
+	
+	<element name="Obsidian Basher" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_OBSIDIAN_BASHER">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Its base properties are that of a mundane warhammer.</p>
+			<p>This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">You can cause structural harm to a creature you are in combar with unhindered. Once per long rest when attacking with this weapon, you can make a called shot against a target creature's arm, leg or torso, hindering their effectiveness in combat. When you make this called shot, you don't gain disadvantage on the attack, but your target must fail a DC 15 Strength saving throw to suffer the effects. Succesfully hitting an arm of the creature imposes disadvantage on weapon attacks they make using their hands, hitting a leg halves their movement, and hitting their torso damages vital organs, imposing disadvantage on Constitution saving throws.</p>
+		</description>
+		<setters>
+			<set name="keywords">break, hammer, maul, warhammer</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="warhammer">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Warhammer</set>
+			<set name="name-format">Obsidian Basher</set>
+		</setters>
+	</element>
+	
+	<element name="Recalling Dagger" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_RECALLING_DAGGER">
+		<description>
+			<p>This dagger's damage is 1d6 piercing, and is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">Once per turn, after missing with a ranged weapon attack made with this dagger, it teleports back to you, and you can remake the attack. On a hit, the dagger teleport back to you only if you wish it to.</p>
+		</description>
+		<setters>
+			<set name="keywords">teleporting, dagger, recalling</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Dagger</set>
+			<set name="name-format">Recalling Dagger</set>
+		</setters>
+	</element>
+	
+	<element name="Spectral Bow" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_SPECTRAL_BOW">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this bow.</p>
+			<p>This weapon is considered magical for the purposes of overcoming resistances and immunities.</p>
+			<p class="indent">You can shoot at and hit creatures with spectral arrows, if the creatures are within the normal range of this weapon that are behind any type of cover without penalties imposed by cover, unless the cover is thicker than 5 feet.</p>
+		</description>
+		<setters>
+			<set name="keywords">bow, spectral</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Longbow</set>
+			<set name="name-format">Spectral Bow</set>
+		</setters>
+	</element>
+	
+	<element name="Spellsword" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_SPELLSWORD">
+		<description>
+			<p>You gain a +1 bonus spell attack rolls, and attack and damage rolls made with this sword.</p>
+			<p class="indent">Casting a spell as a bonus action on your turn, and then making an attack as your action on the same turn, or casting a spell as an action that requires you to immediately make a melee attack, increases the damage of the attack made with this sword by 1d4 force damage. Casting a spell as that doesn't require you to immediately make a melee attack an action increases the damage of the next successful attack you make with this weapon by 1d8 force damage.</p>
+			<p class="indent">The sword has 3 charges. After killing a creature with this sword, you can spend any number of available charges and regain a spell slot with a level equal to the number of charges spent. You regain all charges after a long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">spell, sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="charges">3</set>
+			<set name="name-format">Spellsword</set>
+		</setters>
+	</element>
+
+</elements>

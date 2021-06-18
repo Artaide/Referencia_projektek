@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Divine Armor (Medium)" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_DIVINE_ARMOR_MEDIUM">
+		<description>
+			<p>While wearing this armor, you have advantage on saving throws made against magical effects, and when you are healed by a spell, any 1's rolled by the healer for the spell can be rerolled once.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM</set>
+			<set name="name-format">Divine + {{parent}}</set>
+		</setters>
+	</element>
+
+</elements>

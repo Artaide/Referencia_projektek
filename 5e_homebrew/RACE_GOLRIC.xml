@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Golric" type="Race" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACE_GOLRIC">
+    <description>
+      <p class="flavor">Coming from two not so different, but enemy-like worlds, golrics are usually not cared for by either their orcish of goliath families. This neglection often forces Golrics on a path of loneliness, but this path may acquaint them with others like them.</p>
+	  
+      <h4>DRIVEN AVENGERS</h4>
+      <p>Golrics feel the wrathful emotion of vengeance towards both side of their heritage, and are prone to furious emotional outbursts. They focus on vengeance and punishment more than anything, if they are on their way to kill their neglectful parents.</p>
+      <p class="indent">This dedication can easily cross into ignorant exertion, and they may not live see tomorrow, should they choose to avenge their childhoods.</p>
+	  
+      <h4>WRATHFUL STRATEGISTS</h4>
+      <p>Even if a golric is not the brightest they can be, they easily become powerful anger-fueled strategists.</p>
+      <p class="indent">This trait is their most powerful tool. When cornered or held back, they become fierce and animalistic, but clever and resourceful.</p>
+	  
+      <h4>SURVIVAL OF THE FIERCEST</h4>
+      <p>Golrics have little pity for anyone who give up more easily than them. A golric will most likely leave a companion behind, if they seem weak, or an otherwise impedimental factor.</p>   
+	  
+      <h4>GOLRIC NAMES</h4>
+      <p>A golric's name is given by the parent or parent figure that takes care of them, even if minimally.</p>
+	  <p class="indent">Their names are almost always in the same language the caretaker speaks, and will usually have a negative meaing, along the likes of 'outcast', 'bastard-child', 'mongrel', or maybe even 'garbage' or 'weakling', though they might change their names to something else, if they deem themselves worthy.</p>
+
+      <h4>GOLRIC TRAITS</h4>
+      <p>Golrics share a number of traits in common with goliaths and orcs.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 2.<br/>
+		
+        <span class="feature">Age·</span>Goliaths have lifespans shorter humans. They enter adulthood at the start of their teens and usually live up
+  		to around 60 years.<br/>
+		
+        <span class="feature">Alignment.</span>Because of neglection and a dire need for survival skills, golrics tend toward Chaotic alignments, and are often Evil.<br/>
+		
+        <span class="feature">Size.</span>Golrics are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium.<br/>
+		
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+		
+		<span class="feature">Darkvision.</span>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.<br/>
+		
+        <span class="feature">Hard Trained.</span>You have proficiency in the Athletics and Survival skills.<br/>
+		
+        <span class="feature">Rugged Endurance.</span>When you take damage, you can use your reaction to roll a d8. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.<br/>
+		
+		<span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br/>
+		
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Giant/Orc, depending on your upbringing.<br/>
+      </p>	  
+    </description>
+	<setters>
+      <set name="height" modifier="2d6">7'0"</set>
+      <set name="weight" modifier="2d10">280 lb.</set>    
+    </setters>
+	
+    <rules>
+      <stat name="strength" value="2" />
+      <stat name="constitution" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_GIANT" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_HARD_TRAINED" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_RUGGED_ENDURANCE" />
+      <grant type="Racial Trait" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_POWERFUL_BUILD" />
+    </rules>
+  </element>
+
+   <element name="Hard Trained" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_HARD_TRAINED">
+    <description>
+      <p>You have proficiency in the Athletics and Survival skills.</p>
+    </description>
+    <sheet display="false">
+      <description>You have proficiency in the Athletics and Survival skills.</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+	  <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+    </rules>
+  </element>
+  
+   <element name="Rugged Endurance" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_RUGGED_ENDURANCE">
+    <description>
+      <p>When you take damage, you can use your reaction to roll a d8. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.</p>
+    </description>
+    <sheet usage="1/Short Rest">
+      <description>When you take damage, you can use your reaction to roll a d8+{{stones endurance:mod}} and reduce the damage by that total.</description>
+    </sheet>
+    <rules>
+      <stat name="stones endurance:mod" value="constitution:modifier" />
+    </rules>
+  </element>
+  
+   <element name="Powerful Build" type="Racial Trait" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_RACIAL_TRAIT_GOLRIC_POWERFUL_BUILD">
+    <description>
+      <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+    </description>
+    <sheet>
+      <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+    </sheet>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+    </rules>
+  </element>
+
+</elements>
