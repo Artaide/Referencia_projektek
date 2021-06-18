@@ -637,7 +637,7 @@
 	  <p class="indent">While a creature is no farther than 30 feet from at least one other creature that is connected to the sustained arc, it takes 1d12 lightning damage at the start of their turn, dealing half as much to the other ones.</p>
 	</description>
 	<setters>
-	  <set name="keywords">burning, tempest</set>
+	  <set name="keywords">lightning, serpent</set>
 	  <set name="level">5</set>
 	  <set name="school">Evocation</set>
 	  <set name="time">1 Action</set>
@@ -651,5 +651,28 @@
 	  <set name="isRitual">false</set>
 	</setters>
   </element>
+  
+  <element name="Bolt of Force" type="Spell" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_SPELL_WALKING_BOLT_OF_FORCE">
+	<supports>Wizard</supports>
+	<description>
+	  <p>Coat a pearl in gunpowder, and touch it to a crossbow bolt. The bolt becomes magical for the duration, and when it's shot from a crossbow, it deals 3d6 force damage on a hit. If you shoot it, you can use your Intelligence modifier instead of Dexterity for the attack roll, the damage however is not increased by either. The crossbow bolt explodes on impact, destroying it.</p>
+	  <p class="indent"><b>At Higher Levels.</b> The bold deals an additional 1d6 force damage for each spell slot level above 3rd. When this spell is cast using a 5th or higher level spell slot, the hit target also has to succeed on aa Strength saving throw, or be knocked 10 feet away from you, prone.</p>
+	</description>
+	<setters>
+	  <set name="keywords">bolt, force</set>
+	  <set name="level">3</set>
+	  <set name="school">Evocation</set>
+	  <set name="time">1 Bonus Action</set>
+	  <set name="duration">1 minute</set>
+	  <set name="range">Touch</set>
+	  <set name="hasVerbalComponent">false</set>
+	  <set name="hasSomaticComponent">true</set>
+	  <set name="hasMaterialComponent">true</set>
+	  <set name="materialComponent">a pinch of gunpowder, a pearl worth at least 5 gp and a crossbow bolt, all of which the spell consumes</set>
+	  <set name="isConcentration">false</set>
+	  <set name="isRitual">false</set>
+	</setters>
+  </element>
+  
   
 </elements>
