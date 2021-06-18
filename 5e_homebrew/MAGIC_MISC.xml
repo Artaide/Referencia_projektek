@@ -350,4 +350,21 @@
 		</setters>
 	</element>
 	
+	<element name="Staff of Discord" type="Magic Item" source="Axel's Homebrew Collected from Many Places" id="ID_CUSTOM_MAGIC_ITEM_STAFF_OF_DISCORD">
+		<description>
+			<p>This darkwood staff has a large metal ring attached to it, with a smaller ring inside of the larger one, hanging by a single chain link.</p>
+			<p class="indent">The staff can be used as a +1 quarterstaff. Additionally, it grants a +1 bonus to spell attacks.</p>
+			<p class="indent">As an action you can swing the staff horizontally in front of you. All creatures of your choice in a 15-foot-cone take 1d4 force damage, as a strong soundwave travels through their body. All of these creatures must succeed on a Constitution saving throw against your spell save DC, or be knocked 5 feet back, and have disadvantage on the next attack they make.</p>
+		</description>
+		<setters>
+			<set name="keywords">chains, staff</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="10">20 lbs.</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	
 </elements>
