@@ -1,2 +1,2 @@
-5e homebrew csak xml
+5e homebrew csak xml; 
 probazh test nem kész
