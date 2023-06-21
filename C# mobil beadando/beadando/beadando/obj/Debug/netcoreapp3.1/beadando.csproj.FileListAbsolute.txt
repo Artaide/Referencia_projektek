@@ -1,0 +1,13 @@
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.csprojAssemblyReference.cache
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.AssemblyInfoInputs.cache
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.AssemblyInfo.cs
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.csproj.CoreCompileInputs.cache
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.exe
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.deps.json
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.runtimeconfig.json
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.runtimeconfig.dev.json
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.dll
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\bin\Debug\netcoreapp3.1\beadando.pdb
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.dll
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.pdb
+C:\Users\Nick Axel\Documents\ELTE\C# mobil\beadando\beadando\beadando\obj\Debug\netcoreapp3.1\beadando.genruntimeconfig.cache
